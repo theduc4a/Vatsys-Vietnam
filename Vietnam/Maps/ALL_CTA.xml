@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="ALL_CTA" Priority="2">
-    <Line Name="SYDNEY_CONTROL_ZONE_(C)" Pattern="Dashed">
+    <Line Name="TS_CTR" Pattern="Dashed">
 +10.778123+106.720703/
 +10.771837+106.717018/
 +10.765891+106.712791/
@@ -14,7 +14,7 @@
 +10.737163+106.671127/
 +10.735277+106.663994/
 +10.734614+106.660163</Line>
-   <Line Name="SYDNEY_CTA_C01A" Pattern="Dashed">
+   <Line Name="TS_CTA_C01A" Pattern="Dashed">
 +10.801573+106.562372/
 +10.805466+106.561661/
 +10.812692+106.561005/
@@ -48,7 +48,7 @@
 +10.872680+106.707931/
 +10.867127+106.712685/
 +10.863126+106.715561</Line>
-    <Line Name="SYDNEY_CTA_C01B" Pattern="Dashed">
+    <Line Name="TS_CTA_C01B" Pattern="Dashed">
 +10.778123+106.720703/
 +10.771837+106.717018/
 +10.765891+106.712791/

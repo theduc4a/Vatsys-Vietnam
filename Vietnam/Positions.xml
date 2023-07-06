@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
-  <Position Name="Tan Son Nhat Terminal" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="190" VisibilityRange="100" MagneticVariation="-0.639">
+  <Position Name="Tan Son Nhat TCU" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="100" VisibilityRange="100" MagneticVariation="-0.639">
        <Sectors>
-         <Sector Name="VVTS_APP" />
+         <Sector Name="TSA" />
+         <Sector Name="TST" />
        </Sectors>
        <ManualVisibility>
          <Point>+10.816300+106.661900</Point>
@@ -10,9 +11,6 @@
        <Maps>
          <Map Name="ALL_CTA" />
          <Map Name="Tan Son Nhat/25LR PROPS" />
-         <Map Name="Sydney/SY_TCU" />
-         <Map Name="Sydney/SY_RWY34PROPS" />
-         <Map Name="Sydney/RI_RWY28" />
        </Maps>
        <ATIS>
          <Editor Airport="VVTS" Frequency="128.0" />
@@ -39,7 +37,9 @@
     </Position>
   <Position Name="Tan Son Nhat Tower" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="60" VisibilityRange="50" MagneticVariation="-0.639">
        <Sectors>
-         <Sector Name="VVTS_TWR" />
+         <Sector Name="TS ADC" />
+         <Sector Name="TS SMC" />
+         <Sector Name="TS ACD" />
        </Sectors>
        <ManualVisibility>
          <Point>+10.816300+106.661900</Point>

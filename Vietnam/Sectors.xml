@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
- <Sector FullName="Tan Son Nhat Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="VVTS_APP">
-    <Volumes>SYA</Volumes>
+  <Sector FullName="Tan Son Nhat Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TST">
+    <Volumes>TSA</Volumes>
   </Sector>
-<Sector FullName="Tan Son Nhat Tower" Frequency="118.9" Callsign="VVTS_TWR" Name="VVTS_TWR">
-    <Volumes>SYA</Volumes>
+  <Sector FullName="Tan Son Nhat Arrivals" Frequency="126.350" Callsign="VVTS-F_APP" Name="TSA">
+    <Volumes>TSA</Volumes>
+  </Sector>
+  <Sector FullName="Tan Son Nhat Tower" Frequency="118.9" Callsign="VVTS_TWR" Name="TS ADC">
+    <Volumes>TSTWR</Volumes>
+  </Sector>
+  <Sector FullName="Tan Son Nhat Tower" Frequency="121.6" Callsign="VVTS_GND" Name="TS SMC">
+    <Volumes>TSTWR</Volumes>
+  </Sector>
+  <Sector FullName="Tan Son Nhat Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TS ACD">
+    <Volumes>TSTWR</Volumes>
   </Sector>
 </Sectors>
