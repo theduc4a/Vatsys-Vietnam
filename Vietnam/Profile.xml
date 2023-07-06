@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Profile Name="Vietnam" FullName="Eurocat Vietnam (2303)">
+	<Version AIRAC="2303" Revision="a" PublishDate="20230323" />
+	<Servers>
+		<VATSIMStatus url="https://status.vatsim.net/" />
+		<GRIB url="https://sawbe.com/GRIB/" />
+		<G2G url="antifaff.vatsys.sawbe.com" port="64738" />
+	</Servers>	
+</Profile>

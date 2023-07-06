@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
+  <Position Name="Tan Son Nhat Terminal" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="190" VisibilityRange="100" MagneticVariation="-0.639">
+       <Sectors>
+         <Sector Name="VVTS_APP" />
+       </Sectors>
+       <ManualVisibility>
+         <Point>+10.816300+106.661900</Point>
+       </ManualVisibility>
+       <Maps>
+         <Map Name="ALL_CTA" />
+         <Map Name="Tan Son Nhat/25LR PROPS" />
+         <Map Name="Sydney/SY_TCU" />
+         <Map Name="Sydney/SY_RWY34PROPS" />
+         <Map Name="Sydney/RI_RWY28" />
+       </Maps>
+       <ATIS>
+         <Editor Airport="VVTS" Frequency="128.0" />
+         <Window Airport="VVTS" />
+       </ATIS>
+       <Strips Mode="Beacon" Sort="Alpha">
+         <Window Type="ADEP" Beacon="VVTS" Visible="true" />
+       </Strips>
+         <CFL QuickLevel="190">
+       </CFL>
+       <ArrivalLists>
+         <Airport Name="VVTS" />
+       </ArrivalLists>
+      <ControllerInfo>
+        <Line>Tan Son Nhat Terminal</Line>
+        <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+        <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="VVTS_F_APP">
+        <Line>Tan Son Nhat Arrival</Line>
+        <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+        <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+      </ControllerInfo>
+    </Position>
+  <Position Name="Tan Son Nhat Tower" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="60" VisibilityRange="50" MagneticVariation="-0.639">
+       <Sectors>
+         <Sector Name="VVTS_TWR" />
+       </Sectors>
+       <ManualVisibility>
+         <Point>+10.816300+106.661900</Point>
+       </ManualVisibility>
+       <Maps>
+         <Map Name="ALL_CTA" />
+         <Map Name="Tan Son Nhat/25LR PROPS" />
+       </Maps>
+       <ATIS>
+         <Editor Airport="VVTS" Frequency="128.0" />
+         <Window Airport="VVTS" />
+       </ATIS>
+       <Strips Mode="Beacon" Sort="Alpha">
+         <Window Type="ADEP" Beacon="VVTS" Visible="true" />
+       </Strips>
+         <CFL QuickLevel="5000">
+       </CFL>
+       <ArrivalLists>
+         <Airport Name="VVTS" />
+       </ArrivalLists>
+      <ControllerInfo>
+        <Line>Tan Son Nhat Tower</Line>
+        <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+        <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+      </ControllerInfo>
+        <ControllerInfo Callsign="VVTS_GND">
+        <Line>Tan Son Nhat Ground</Line>
+        <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+        <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+      </ControllerInfo>
+        <ControllerInfo Callsign="VVTS_DEL">
+        <Line>Tan Son Nhat Delivery</Line>
+        <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+        <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+      </ControllerInfo>
+  </Position>
+</Positions>
+ 

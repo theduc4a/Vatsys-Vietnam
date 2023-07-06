@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Radars>
+  <Radar Name="RADAR1" Type="PRI" Elevation="35" MaxRange="80">
+    <Lat>+10.828056</Lat>
+    <Long>+106.658333</Long>
+  </Radar>
+  <Radar Name="Radar2" Type="SSR_ModeC" Elevation="35" Maxrange="80">
+    <Lat>+10.826389</Lat>
+    <Long>+106.658333</Long>
+  </Radar>
+</Radars>

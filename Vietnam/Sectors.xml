@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <Sector FullName="Tan Son Nhat Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="VVTS_APP">
+    <Volumes>SYA</Volumes>
+  </Sector>
+<Sector FullName="Tan Son Nhat Tower" Frequency="118.9" Callsign="VVTS_TWR" Name="VVTS_TWR">
+    <Volumes>SYA</Volumes>
+  </Sector>
+</Sectors>

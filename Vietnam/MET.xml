@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MET>
+  <GRIB url="http://sawbe.com/GRIB/" fileName="world.grib2" />
+  <ProductTypes>
+    <TAF url="https://aviationweather.gov/adds/dataserver_current/httpparam?dataSource=tafs&amp;requestType=retrieve&amp;format=xml&amp;stationString=%ICAO&amp;hoursBeforeNow=0&amp;timeType=valid&amp;mostRecent=true" xmlDataTag="raw_text" mostRecent="true"/>
+  </ProductTypes>
+  <Browsers>
+    <AreaQNH url="http://reg.bom.gov.au/products/reg/QNH.shtml#aus" Username="bomw0007" Password="aviation" />
+    <WXRadars url="http://www.bom.gov.au/australia/radar/" />
+    <BOM url="http://www.bom.gov.au/aviation/" />
+    <TFMS url="https://maestro.vatpac.org" />
+    <SimATC url="https://sim-atc.com/?vatsys=true" />
+    <SepCalc url="https://www.worldflight.com.au/files/sepcalc1.html" />
+    <SOPs url="https://sops.vatpac.org" />
+    <SkyVector url="https://skyvector.com" />
+  </Browsers>
+</MET>
