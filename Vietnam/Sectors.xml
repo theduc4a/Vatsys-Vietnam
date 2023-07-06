@@ -9,7 +9,7 @@
   <Sector FullName="Tan Son Nhat Tower" Frequency="118.9" Callsign="VVTS_TWR" Name="TS ADC">
     <Volumes>TSTWR</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Tower" Frequency="121.6" Callsign="VVTS_GND" Name="TS SMC">
+  <Sector FullName="Tan Son Nhat Ground" Frequency="121.6" Callsign="VVTS_GND" Name="TS SMC">
     <Volumes>TSTWR</Volumes>
   </Sector>
   <Sector FullName="Tan Son Nhat Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TS ACD">
