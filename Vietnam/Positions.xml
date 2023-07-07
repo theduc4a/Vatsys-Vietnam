@@ -2,15 +2,15 @@
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
   <Position Name="Tan Son Nhat TCU" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="100" VisibilityRange="100" MagneticVariation="-0.639">
        <Sectors>
-         <Sector Name="TSA" />
-         <Sector Name="TST" />
+        <Sector Name="TST" />
+        <Sector Name="TSA" />
        </Sectors>
        <ManualVisibility>
          <Point>+10.816300+106.661900</Point>
        </ManualVisibility>
        <Maps>
          <Map Name="ALL_CTA" />
-         <Map Name="Tan Son Nhat/25LR PROPS" />
+         <Map Name="Tan Son Nhat/TS_RWY25PMS" />
        </Maps>
        <ATIS>
          <Editor Airport="VVTS" Frequency="128.0" />
@@ -29,7 +29,7 @@
         <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
         <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="VVTS_F_APP">
+      <ControllerInfo Callsign="VVTS-F_APP">
         <Line>Tan Son Nhat Arrival</Line>
         <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
         <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
@@ -46,7 +46,7 @@
        </ManualVisibility>
        <Maps>
          <Map Name="ALL_CTA" />
-         <Map Name="Tan Son Nhat/25LR PROPS" />
+         <Map Name="Tan Son Nhat/TS_RWY25PMS" />
        </Maps>
        <ATIS>
          <Editor Airport="VVTS" Frequency="128.0" />
