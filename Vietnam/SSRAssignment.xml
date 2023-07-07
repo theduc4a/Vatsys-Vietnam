@@ -32,7 +32,7 @@
   </Bin>
   <!-- Domestic Flights -->
   <Bin>
-    <Rule Departure="Y\w{3}" Destination="Y\w{3}"/>
+    <Rule Departure="V\w{3}" Destination="V\w{3}"/>
     <Codes Start="3601" End="3677"/>
 	<Codes Start="3701" End="3777"/>
 	<Codes Start="4001" End="4077"/>

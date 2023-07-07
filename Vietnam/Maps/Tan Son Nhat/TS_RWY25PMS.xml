@@ -4,12 +4,40 @@
     <!--YSSY-->
     <Runway Name="07R/25L">
       <Threshold Name="07R" Position="+10.813833+106.643333" />
-      <Threshold Name="25L" Position="+10.823667+106.669500" ExtendedCentrelineTrack="68.98" ExtendedCentrelineLength="16" ExtendedCentrelineTickInterval="2"/>
+      <Threshold Name="25L" Position="+10.823667+106.669500" />
     </Runway>
     <Runway Name="07L/25R">
       <Threshold Name="07L" Position="+10.815000+106.637167" />
       <Threshold Name="25R" Position="+10.824833+106.663167" ExtendedCentrelineTrack="68.98" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
     </Runway>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D-->
+    +10.818333+106.651389/
+    TS616/
+    TS636/ 
+    TS638/
+    KADUM
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D.DILIN-->
+    KADUM/ 
+    DILIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D.DOVIN-->
+    KADUM/ 
+    DOVIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D.PATMA-->
+    KADUM/ 
+    PATMA
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D.PTH-->
+    KADUM/ 
+    PTH
+    </Line>
 
     <!--TST AND TSA SECTOR BOUNDARIES-->
     <Line Name="TSA_CTA" Width="1.7" Pattern="Dotted">+112438.800+1065701.856/+111845.000+1064712.000/+105655.000+1065046.000/TSH VOR/+104256.000+1065035.000/+103056.000+1065455.000/+101900.000+1070546.000</Line>
@@ -24,14 +52,18 @@
     <Line Name="TSA_CTA_134" Pattern="Dashed">+112438.800+1065701.856/+111845.000+1064712.000/+105655.000+1065046.000</Line>
 
     <Symbol Type="HollowTriangle">
-
-    </Symbol>
+      <Point>KADUM</Point>
+      <Point>DOVIN</Point>
+      <Point>DILIN</Point>
+      <Point>PATMA</Point>
+      </Symbol>
     <Symbol Type="SolidStar">
 
     </Symbol>
     <Symbol Type="Circle">
       <Point>AC NDB</Point>
       <Point>SG NDB</Point>
+      <Point>PTH</Point>
     </Symbol>
     <Symbol Type="HollowStar">
 

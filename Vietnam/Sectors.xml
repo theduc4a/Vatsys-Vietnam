@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Sector FullName="Tan Son Nhat Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TST">
+  <Sector FullName="Tan Son Nhat Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TSTE">
     <Volumes>TSN</Volumes>
     <ResponsibleSectors>TSA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Tan Son Nhat Arrivals" Frequency="126.350" Callsign="VVTS-F_APP" Name="TSA">
-    <Volumes>TSN</Volumes>
+  <Sector FullName="Tan Son Nhat Arrival" Frequency="126.350" Callsign="VVTS-F_APP" Name="TSA">
+    <Volumes>TSTE</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Tower" Frequency="118.9" Callsign="VVTS_TWR" Name="TS ADC">
+  <Sector FullName="Tan Son Nhat Tower" Frequency="118.9" Callsign="VVTS_TWR" Name="TST">
     <Volumes>TSTWR</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Ground" Frequency="121.6" Callsign="VVTS_GND" Name="TS SMC">
+  <Sector FullName="Tan Son Nhat Ground" Frequency="121.6" Callsign="VVTS_GND" Name="TSG">
     <Volumes>TSTWR</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TS ACD">
+  <Sector FullName="Tan Son Nhat Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TSD">
     <Volumes>TSTWR</Volumes>
   </Sector>
 </Sectors>

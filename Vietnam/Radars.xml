@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Radars>
-  <Radar Name="RADAR1" Type="PRI" Elevation="35" MaxRange="80">
+  <Radar Name="SGN" Type="PRI" Elevation="100" MaxRange="250">
     <Lat>+10.828056</Lat>
     <Long>+106.658333</Long>
   </Radar>
-  <Radar Name="Radar2" Type="SSR_ModeC" Elevation="35" Maxrange="80">
+  <Radar Name="SGN2" Type="SSR_ModeC" Elevation="100" Maxrange="250">
     <Lat>+10.826389</Lat>
     <Long>+106.658333</Long>
+  <Radar Name="Cam Ranh" Type="ADSB" Elevation="100" Maxrange="250"></Radar>
+    <Lat>+12.003889</Lat>
+    <Long>+109.214722</Long>
   </Radar>
 </Radars>

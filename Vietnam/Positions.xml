@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
-  <Position Name="Tan Son Nhat TCU" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="100" VisibilityRange="100" MagneticVariation="-0.639">
+  <Position Name="Tan Son Nhat Terminal" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="250" VisibilityRange="150" MagneticVariation="-0.639">
        <Sectors>
-        <Sector Name="TST" />
+        <Sector Name="TSTE" />
         <Sector Name="TSA" />
        </Sectors>
        <ManualVisibility>
@@ -19,7 +19,7 @@
        <Strips Mode="Beacon" Sort="Alpha">
          <Window Type="ADEP" Beacon="VVTS" Visible="true" />
        </Strips>
-         <CFL QuickLevel="190">
+         <CFL QuickLevel="16000">
        </CFL>
        <ArrivalLists>
          <Airport Name="VVTS" />
