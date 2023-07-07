@@ -4,22 +4,22 @@
       <Airport Name="VVTS">
         <Runway Name="25L" DataRunway="25L">
             <SID Name="RDVR" Default="True" />
-            <SID Name="ANTRI2D" />
-            <SID Name="ANTRI2E" />
-            <SID Name="ANTRI2F" />
-            <SID Name="ENPAS2B" />
-            <SID Name="SAPEN2B" />
-            <SID Name="LANHI2D" />
-            <SID Name="LANHI2E" />
-            <SID Name="BACHU2D" />
-            <SID Name="ENPAS2D" />
-            <SID Name="KADUM2D" />
-            <SID Name="MISAN2D" />
-            <SID Name="SPAEN2D" />
-            <SID Name="XOBAV2D" />
-            <SID Name="KADUM2F" />
-            <SID Name="TANOS2D" />
-            <SID Name="TANOS2E" />
+            <SID Name="ANTR2D" />
+            <SID Name="ANTR2E" />
+            <SID Name="ANTR2F" />
+            <SID Name="ENPA2B" />
+            <SID Name="SAPE2B" />
+            <SID Name="LANH2D" />
+            <SID Name="LANH2E" />
+            <SID Name="BACH2D" />
+            <SID Name="ENPA2D" />
+            <SID Name="KADU2D" />
+            <SID Name="MISA2D" />
+            <SID Name="SPAE2D" />
+            <SID Name="XOBA2D" />
+            <SID Name="KADU2F" />
+            <SID Name="TANO2D" />
+            <SID Name="TANO2E" />
             <STAR Name="BITI2H"  />
             <STAR Name="ELSA2H"  />
             <STAR Name="VICA3H"  />
@@ -31,22 +31,22 @@
         </Runway>
         <Runway Name="25R" DataRunway="25R">
             <SID Name="RDVR" Default="True" />
-            <SID Name="ANTRI2D" />
-            <SID Name="ANTRI2E" />
-            <SID Name="ANTRI2F" />
-            <SID Name="ENPAS2B" />
-            <SID Name="SAPEN2B" />
-            <SID Name="LANHI2D" />
-            <SID Name="LANHI2E" />
-            <SID Name="BACHU2D" />
-            <SID Name="ENPAS2D" />
-            <SID Name="KADUM2D" />
-            <SID Name="MISAN2D" />
-            <SID Name="SPAEN2D" />
-            <SID Name="XOBAV2D" />
-            <SID Name="KADUM2F" />
-            <SID Name="TANOS2D" />
-            <SID Name="TANOS2E" />
+            <SID Name="ANTR2D" />
+            <SID Name="ANTR2E" />
+            <SID Name="ANTR2F" />
+            <SID Name="ENPA2B" />
+            <SID Name="SAPE2B" />
+            <SID Name="LANH2D" />
+            <SID Name="LANH2E" />
+            <SID Name="BACH2D" />
+            <SID Name="ENPA2D" />
+            <SID Name="KADU2D" />
+            <SID Name="MISA2D" />
+            <SID Name="SPAE2D" />
+            <SID Name="XOBA2D" />
+            <SID Name="KADU2F" />
+            <SID Name="TANO2D" />
+            <SID Name="TANO2E" />
             <STAR Name="BITI2H"  />
             <STAR Name="ELSA2H"  />
             <STAR Name="VICA3H"  />
@@ -58,18 +58,18 @@
         </Runway>
         <Runway Name="07L" DataRunway="07L">
          <SID Name="RDVR" Default="True" />
-            <SID Name="ANTRI2B" />
-            <SID Name="BACHU2A" />
-            <SID Name="KADUM2A" />
-            <SID Name="MISAN2A" />
-            <SID Name="SAPEN2A" />
-            <SID Name="BACHU2C" />
-            <SID Name="MISAN2C" />
-            <SID Name="LANHI2B" />
-            <SID Name="TANOS2B" />
-            <SID Name="MALAY2B" />
-            <SID Name="XOBAV2B" />
-            <SID Name="XOBAV2B" />
+            <SID Name="BACH2A" />
+            <SID Name="ANTR2B" />
+            <SID Name="KADU2A" />
+            <SID Name="MISA2A" />
+            <SID Name="SAPE2A" />
+            <SID Name="BACH2C" />
+            <SID Name="MISA2C" />
+            <SID Name="LANH2B" />
+            <SID Name="TANO2B" />
+            <SID Name="MALA2B" />
+            <SID Name="XOBA2B" />
+            <SID Name="XOBA2B" />
             <STAR Nanme="BITI2G" />
             <STAR Nanme="SAPE2G" />
             <STAR Name="DALA2G"  />
@@ -78,18 +78,18 @@
           </Runway>
         <Runway Name="07R" DataRunway="07R">
             <SID Name="RDVR" Default="True" />
-            <SID Name="ANTRI2B" />
-            <SID Name="BACHU2A" />
-            <SID Name="KADUM2A" />
-            <SID Name="MISAN2A" />
-            <SID Name="SAPEN2A" />
-            <SID Name="BACHU2C" />
-            <SID Name="MISAN2C" />
-            <SID Name="LANHI2B" />
-            <SID Name="TANOS2B" />
-            <SID Name="MALAY2B" />
-            <SID Name="XOBAV2B" />
-            <SID Name="XOBAV2B" />
+            <SID Name="ANTR2B" />
+            <SID Name="BACH2A" />
+            <SID Name="KADU2A" />
+            <SID Name="MISA2A" />
+            <SID Name="SAPE2A" />
+            <SID Name="BACH2C" />
+            <SID Name="MISA2C" />
+            <SID Name="LANH2B" />
+            <SID Name="TANO2B" />
+            <SID Name="MALA2B" />
+            <SID Name="XOBA2B" />
+            <SID Name="XOBA2B" />
             <STAR Nanme="BITI2G" />
             <STAR Nanme="SAPE2G" />
             <STAR Name="DALA2G"  />
@@ -161,7 +161,7 @@
       <Route Runway="07R" />
       <Route Runway="25L" />
     </SID>
-    <SID Name="KADOM2D" Airport="VVTS" Runways="25L,25R">
+    <SID Name="KADU2D" Airport="VVTS" Runways="25L,25R">
       <Route Runway="25L">TS616/TS636/TS638/TS686/KADUM</Route>
       <Route Runway="25R">TS616/TS636/TS638/TS686/KADUM</Route>
       <Tranisition Name="DILIN">DILIN</Tranisition>
