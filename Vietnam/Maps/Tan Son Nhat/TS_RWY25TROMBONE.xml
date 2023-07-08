@@ -30,14 +30,5 @@
     <Symbol Type="HollowStar">
       
     </Symbol>
-    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
-      <!--(SY) RWY34PROPS Labels-->
-
-    </Label>
-  </Map>
-  <Map Type="System" Name="SY_RWY34PROPS_NAMES" Priority="2" Center="-33.946111+151.177222">
-    <Label>
-      
-    </Label>
   </Map>
 </Maps>
