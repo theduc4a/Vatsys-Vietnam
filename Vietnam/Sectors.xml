@@ -7,13 +7,16 @@
   <Sector FullName="Tan Son Nhat Arrival" Frequency="126.350" Callsign="VVTS-F_APP" Name="TSA">
     <Volumes>TSTE</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Tower" Frequency="118.9" Callsign="VVTS_TWR" Name="TST">
-    <Volumes>TSTWR</Volumes>
+  <Sector FullName="Tan Son Nhat Tower" Frequency="118.7" Callsign="VVTS_TWR" Name="TST">
+    <Volumes>TST</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Ground" Frequency="121.6" Callsign="VVTS_GND" Name="TSG">
-    <Volumes>TSTWR</Volumes>
+  <Sector FullName="Tan Son Nhat Ground" Frequency="121.9" Callsign="VVTS_GND" Name="TSG">
+    <Volumes>TST</Volumes>
+  </Sector>
+  <Sector FullName="Tan Son Nhat Ground" Frequency="121.6" Callsign="VVTS_2_GND" Name="TSG2">
+    <Volumes>TST</Volumes>
   </Sector>
   <Sector FullName="Tan Son Nhat Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TSD">
-    <Volumes>TSTWR</Volumes>
+    <Volumes>TST</Volumes>
   </Sector>
 </Sectors>

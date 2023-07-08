@@ -164,7 +164,7 @@
     +103001.205+1060259.104/
     +102723.000+1060429.000
   </Boundary>
-  <Volume Name="TSTWR" LowerLimit="0" UpperLimit="2500">
+  <Volume Name="TST" LowerLimit="0" UpperLimit="2500">
     <Boundaries>TSN_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
   <Volume Name="TSN" LowerLimit="0" UpperLimit="16500">

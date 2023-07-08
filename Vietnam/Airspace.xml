@@ -178,7 +178,7 @@
       <Tranistion Name="PTH">PTH</Tranistion>
    </SID>
    <SID Name="ANTR2E" Airport="VVTS" Runways="25L,25R">
-    <Route Runway="25L">TS616//TS622/TS624/TS626/TS628/TS632/TS814/TS816/ANTRI</Route> 
+    <Route Runway="25L">TS616/TS622/TS624/TS626/TS628/TS632/TS814/TS816/ANTRI</Route> 
     <Route Runway="25R">TS618/TS622/TS624/TS626/TS628/TS632/TS814/TS816/ANTRI</Route> 
       <Tranistion Name="DILIN">DILIN</Tranistion>
       <Tranistion Name="DOVIN">DOVIN</Tranistion>
@@ -186,8 +186,8 @@
       <Tranistion Name="PTH">PTH</Tranistion>
   </SID>
    <SID Name="ANTR2F" Airport="VVTS" Runways="25L,25R">
-    <Route Runway="25L">TS652/TS658/TS662/TS664/TS666/TS668/TS814/TS816</Route> 
-    <Route Runway="25R">TS654/TS658/TS662/TS664/TS666/TS668/TS814/TS816</Route> 
+    <Route Runway="25L">TS652/TS658/TS662/TS664/TS666/TS668/TS814/TS816/ANTRI</Route> 
+    <Route Runway="25R">TS654/TS658/TS662/TS664/TS666/TS668/TS814/TS816/ANTRI</Route> 
       <Tranistion Name="DILIN">DILIN</Tranistion>
       <Tranistion Name="DOVIN">DOVIN</Tranistion>
       <Tranistion Name="PATMA">PATMA</Tranistion>
@@ -212,8 +212,8 @@
     <Tranistion Name="POTIX">POTIX</Tranistion>
   </SID>
   <SID Name="ENPA2D" Airport="VVTS" Runways="25L,25R">
-    <Route Runway="25L">TS616/TS616/ENPAS</Route> 
-    <Route Runway="25R">TS616/TS616/ENPAS</Route>
+    <Route Runway="25R">TS616/TS618/ENPAS</Route>
+    <Route Runway="25L">TS616/TS618/ENPAS</Route> 
     <Tranistion Name="ANOHA">ANOHA</Tranistion>
   </SID>
     <SID Name="KADU2A" Airport="VVTS" Runways="07L,07R">
@@ -246,8 +246,8 @@
       <Tranisition Name="ELSAS">ELSAS</Tranisition>
     </SID>
     <SID Name="LANH2D" Airport="VVTS" Runways="25L,25R">
-      <Route Runway="25L">TS612/TS826/TS628/TS632/LANHI</Route>
-      <Route Runway="25R">TS614/TS826/TS628/TS632/LANHI</Route>
+      <Route Runway="25L">TS612/TS626/TS628/TS632/LANHI</Route>
+      <Route Runway="25R">TS614/TS626/TS628/TS632/LANHI</Route>
       <Tranisition Name="ELSAS">ELSAS</Tranisition>
     </SID>
     <SID Name="LANH2E" Airport="VVTS" Runways="25L,25R">
@@ -270,6 +270,11 @@
       <Route Runway="07R">TS852/TS856/TS858/MISAN</Route>
       <Tranisition Name="TRN">TRN</Tranisition>
     </SID>
+    <SID Name="MISA2C" Airport="VVTS" Runways="07L,07R">
+      <Route Runway="07L">TS854/TS852/TS856/TS858MISAN</Route>
+      <Route Runway="07R">TS852/TS852/TS856/TS858MISAN</Route>
+      <Tranisition Name="TRN">TRN</Tranisition>
+    </SID>
     <SID Name="MISA2D" Airport="VVTS" Runways="25L,25R">
       <Route Runway="25L">TS616/TS618/MISAN</Route>
       <Route Runway="25R">TS616/TS618/MISAN</Route>
@@ -282,6 +287,10 @@
     <SID Name="SAPE2B" Airport="VVTS" Runways="25L,25R">
       <Route Runway="25L">TS812/TS822/TS824/TS826/TS828/SAPEN</Route>
       <Route Runway="25R">TS812/TS822/TS824/TS826/TS828/SAPEN</Route>
+    </SID>
+    <SID Name="SAPE2D" Airport="VVTS" Runways="25L,25R">
+      <Route Runway="25R">TS616/SAPEN</Route>
+      <Route Runway="25L">TS616/SAPEN</Route>
     </SID>
     <SID Name="TANO2B" Airport="VVTS" Runways="07L,07R">
       <Route Runway="07L">TS812/TS822/TS842/TS844/TANOS</Route>
@@ -309,7 +318,7 @@
       <Route Runway="07R">TS812/TS822/TS824/TS826/TS828/XOBAV</Route>
       <Tranisition Name="NIXIV">NIXIV</Tranisition>
     </SID>
-    <SID Name="XOBA2B" Airport="VVTS" Runways="25L,25R">
+    <SID Name="XOBA2D" Airport="VVTS" Runways="25L,25R">
       <Route Runway="25L">TS616/TS641/TS642/TS644/XOBAV</Route>
       <Route Runway="25R">TS616/TS641/TS642/TS644/XOBAV</Route>
       <Tranisition Name="NIXIV">NIXIV</Tranisition>

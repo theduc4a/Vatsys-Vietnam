@@ -37,9 +37,9 @@
     </Position>
   <Position Name="Tan Son Nhat Tower" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="60" VisibilityRange="50" MagneticVariation="-0.639">
        <Sectors>
-         <Sector Name="TS ADC" />
-         <Sector Name="TS SMC" />
-         <Sector Name="TS ACD" />
+         <Sector Name="TST" />
+         <Sector Name="TSG" />
+         <Sector Name="TSD" />
        </Sectors>
        <ManualVisibility>
          <Point>+10.816300+106.661900</Point>
@@ -55,7 +55,7 @@
        <Strips Mode="Beacon" Sort="Alpha">
          <Window Type="ADEP" Beacon="VVTS" Visible="true" />
        </Strips>
-         <CFL QuickLevel="5000">
+         <CFL QuickLevel="9000">
        </CFL>
        <ArrivalLists>
          <Airport Name="VVTS" />
@@ -66,6 +66,11 @@
         <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
       </ControllerInfo>
         <ControllerInfo Callsign="VVTS_GND">
+        <Line>Tan Son Nhat Ground</Line>
+        <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+        <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+      </ControllerInfo>
+        <ControllerInfo Callsign="VVTS_2_GND">
         <Line>Tan Son Nhat Ground</Line>
         <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
         <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>

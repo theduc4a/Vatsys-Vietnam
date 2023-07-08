@@ -11,8 +11,55 @@
       <Threshold Name="25R" Position="+10.824833+106.663167" ExtendedCentrelineTrack="68.98" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <Line Width = "1.5" Pattern="Broken">
-    <!--KADUM2D-->
+    <!--ANTRI2D-->
     +10.818333+106.651389/
+    TS616/
+    TS626/
+    TS628/
+    TS632/
+    TS814/
+    TS816/
+    ANTRI
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ANTRI2X.DILIN-->
+    ANTRI/ 
+    DILIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ANTRI2X.DOVIN-->
+    ANTRI/ 
+    DOVIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ANTRI2X.PATMA-->
+    ANTRI/ 
+    PATMA
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ANTRI2X.PTH-->
+    ANTRI/ 
+    PTH
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--BACH2D-->
+    +10.818333+106.651389/
+    TS616/
+    TS618/ 
+    BACHU
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ENPA2D-->
+    TS618/ 
+    ENPAS
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ENPA2D.ANOHA-->
+    ENPAS/ 
+    ANHOA
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D-->
     TS616/
     TS636/ 
     TS638/
@@ -38,6 +85,64 @@
     KADUM/ 
     PTH
     </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--LANH2D--> 
+    TS632/ 
+    LANHI
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--LANH2D.ELSAS-->
+    LANHI/ 
+    ELSAS
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--MISA2D-->
+    TS618/ 
+    MISAN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--MISA2D.TRN-->
+    MISAN/ 
+    TRN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--SAPE2D-->
+    TS616/
+    SAPEN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--TANO2D-->
+    TS632/ 
+    TANOS 
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--TANO2D.DILIN-->
+    TANOS/ 
+    DILIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--TANO2D.DOVIN-->
+    TANOS/ 
+    DOVIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--TANO2D.NIXIV-->
+    TANOS/ 
+    PTH
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--XOBA2D-->
+    TS616/
+    TS641/ 
+    TS642/ 
+    TS644/ 
+    XOBAV
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--XOBA2D.NIXIV-->
+    XOBAV/ 
+    NIXIV
+    </Line>
 
     <!--TST AND TSA SECTOR BOUNDARIES-->
     <Line Name="TSA_CTA" Width="1.7" Pattern="Dotted">+112438.800+1065701.856/+111845.000+1064712.000/+105655.000+1065046.000/TSH VOR/+104256.000+1065035.000/+103056.000+1065455.000/+101900.000+1070546.000</Line>
@@ -56,6 +161,7 @@
       <Point>DOVIN</Point>
       <Point>DILIN</Point>
       <Point>PATMA</Point>
+      <Point>NIXIV</Point>
       </Symbol>
     <Symbol Type="SolidStar">
 
