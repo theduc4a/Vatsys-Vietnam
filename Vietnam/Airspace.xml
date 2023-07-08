@@ -3,7 +3,7 @@
   <SystemRunways>    
       <Airport Name="VVTS">
         <Runway Name="25L" DataRunway="25L">
-            <SID Name="RDVR" Default="True" />
+            <SID Name="RDV" Default="True" />
             <SID Name="ANTR2D" />
             <SID Name="ANTR2E" />
             <SID Name="ANTR2F" />
@@ -15,7 +15,7 @@
             <SID Name="ENPA2D" />
             <SID Name="KADU2D" />
             <SID Name="MISA2D" />
-            <SID Name="SPAE2D" />
+            <SID Name="SAPE2D" />
             <SID Name="XOBA2D" />
             <SID Name="KADU2F" />
             <SID Name="TANO2D" />
@@ -30,7 +30,7 @@
             <STAR Name="DALA2J"  />
         </Runway>
         <Runway Name="25R" DataRunway="25R">
-            <SID Name="RDVR" Default="True" />
+            <SID Name="RDV" Default="True" />
             <SID Name="ANTR2D" />
             <SID Name="ANTR2E" />
             <SID Name="ANTR2F" />
@@ -42,7 +42,7 @@
             <SID Name="ENPA2D" />
             <SID Name="KADU2D" />
             <SID Name="MISA2D" />
-            <SID Name="SPAE2D" />
+            <SID Name="SAPE2D" />
             <SID Name="XOBA2D" />
             <SID Name="KADU2F" />
             <SID Name="TANO2D" />
@@ -57,7 +57,7 @@
             <STAR Name="DALA2J"  />
         </Runway>
         <Runway Name="07L" DataRunway="07L">
-         <SID Name="RDVR" Default="True" />
+         <SID Name="RDV" Default="True" />
             <SID Name="BACH2A" />
             <SID Name="ANTR2B" />
             <SID Name="KADU2A" />
@@ -77,7 +77,7 @@
             <STAR Name="VICA3G"  />
           </Runway>
         <Runway Name="07R" DataRunway="07R">
-            <SID Name="RDVR" Default="True" />
+            <SID Name="RDV" Default="True" />
             <SID Name="ANTR2B" />
             <SID Name="BACH2A" />
             <SID Name="KADU2A" />
@@ -108,7 +108,7 @@
     <!--NDBs-->
     <Point Name="AC" Type="Navaid" NavaidType="NDB" Frequency="320.000">+105621.000+1071118.000</Point>
     <Point Name="SG" Type="Navaid" NavaidType="NDB" Frequency="326.000">+105117.899+1064508.000</Point>
-    <!-- Waypoints-->
+    <!-- SID Waypoints -->
     <Point Name="TS612" Type="Fix">+10.787694+106.574153</Point>
     <Point Name="TS614" Type="Fix">+10.790786+106.572956</Point>
     <Point Name="TS616" Type="Fix">+10.772542+106.534675</Point>
@@ -131,8 +131,8 @@
     <Point Name="TS814" Type="Fix">+10.895556+107.072622</Point>
     <Point Name="TS816" Type="Fix">+11.028458+107.154347</Point>
     <Point Name="TS812" Type="Fix">+10.863850+106.766000</Point>
-    <Point Name="TS814" Type="Fix">+10.895556+107.072622</Point>
-    <Point Name="TS816" Type="Fix">+11.028458+107.154347</Point>
+    <Point Name="TS852" Type="Fix">+10.835431+106.700575</Point>
+    <Point Name="TS854" Type="Fix">+10.838572+106.699517</Point>
     <Point Name="TS822" Type="Fix">+10.678294+106.934881</Point>
     <Point Name="TS824" Type="Fix">+10.597903+106.844717</Point>
     <Point Name="TS826" Type="Fix">+10.507808+106.743758</Point>
@@ -155,11 +155,74 @@
     <Point Name="POTIX" Type="Fix">+10.234722+105.616667</Point>
   </Intersections>
   <SIDSTARs>
-    <SID Name="RDVR" Airport="VVTS" Runways="25R,07L,07R,25L">
+    <SID Name="RDV" Airport="VVTS" Runways="25R,07L,07R,25L">
       <Route Runway="25R" />
       <Route Runway="07L" />
       <Route Runway="07R" />
       <Route Runway="25L" />
+    </SID>
+    <SID Name="ANTR2B" Airport="VVTS" Runways="07L,07R">
+      <Route Runway="07L">TS812/TS814/TS816/ANTRI</Route>
+      <Route Runway="07R">TS812/TS814/TS816/ANTRI</Route>
+      <Tranisition Name="DILIN">DILIN</Tranisition>
+      <Tranisition Name="DOVIN">DOVIN</Tranisition>
+      <Tranisition Name="PATMA">PATMA</Tranisition>
+      <Tranisition Name="PTH">PTH</Tranisition>
+    </SID>
+    <SID Name="ANTR2D" Airport="VVTS" Runways="25L,25R">
+      <Route Runway="25L">TS612/TS626/TS628/TS632/TS814/TS816/ANTRI</Route>
+      <Route Runway="25R">TS614/TS626/TS628/TS63/,TS814/TS816/ANTRI</Route>
+      <Tranistion Name="DILIN">DILIN</Tranistion>
+      <Tranistion Name="DOVIN">DOVIN</Tranistion>
+      <Tranistion Name="PATMA">PATMA</Tranistion>
+      <Tranistion Name="PTH">PTH</Tranistion>
+   </SID>
+   <SID Name="ANTR2E" Airport="VVTS" Runways="25L,25R">
+    <Route Runway="25L">TS616//TS622/TS624/TS626/TS628/TS632/TS814/TS816/ANTRI</Route> 
+    <Route Runway="25R">TS618/TS622/TS624/TS626/TS628/TS632/TS814/TS816/ANTRI</Route> 
+      <Tranistion Name="DILIN">DILIN</Tranistion>
+      <Tranistion Name="DOVIN">DOVIN</Tranistion>
+      <Tranistion Name="PATMA">PATMA</Tranistion>
+      <Tranistion Name="PTH">PTH</Tranistion>
+  </SID>
+   <SID Name="ANTR2F" Airport="VVTS" Runways="25L,25R">
+    <Route Runway="25L">TS652/TS658/TS662/TS664/TS666/TS668/TS814/TS816</Route> 
+    <Route Runway="25R">TS654/TS658/TS662/TS664/TS666/TS668/TS814/TS816</Route> 
+      <Tranistion Name="DILIN">DILIN</Tranistion>
+      <Tranistion Name="DOVIN">DOVIN</Tranistion>
+      <Tranistion Name="PATMA">PATMA</Tranistion>
+      <Tranistion Name="PTH">PTH</Tranistion>
+  </SID>
+   <SID Name="BACH2A" Airport="VVTS" Runways="07L,07R">
+    <Route Runway="07L">TS812/TS834/TS836/TS858/BACHU</Route> 
+    <Route Runway="07R">TS812/TS834/TS836/TS858/BACHU</Route> 
+  </SID>
+   <SID Name="BACH2C" Airport="VVTS" Runways="07L,07R">
+    <Route Runway="07L">TS854/TS852/TS856/TS858/BACHU</Route> 
+    <Route Runway="07R">TS854/TS852/TS856/TS858/BACHU</Route> 
+  </SID>
+   <SID Name="BACH2D" Airport="VVTS" Runways="25L,25R">
+    <Route Runway="25L">TS616/TS618/BACHU</Route> 
+    <Route Runway="25R">TS616/TS618/BACHU</Route> 
+  </SID>
+   <SID Name="ENPA2B" Airport="VVTS" Runways="25L,25R">
+    <Route Runway="25L">TS812/TS822/TS824/TS826/TS828/ENPAS</Route> 
+    <Route Runway="25R">TS812/TS822/TS824/TS826/TS828/ENPAS</Route>
+    <Tranistion Name="ATGAS">ATGAS</Tranistion>
+    <Tranistion Name="POTIX">POTIX</Tranistion>
+  </SID>
+  <SID Name="ENPA2D" Airport="VVTS" Runways="25L,25R">
+    <Route Runway="25L">TS616/TS616/ENPAS</Route> 
+    <Route Runway="25R">TS616/TS616/ENPAS</Route>
+    <Tranistion Name="ANOHA">ANOHA</Tranistion>
+  </SID>
+    <SID Name="KADU2A" Airport="VVTS" Runways="07L,07R">
+      <Route Runway="07L">TS812/KADUM</Route>
+      <Route Runway="07R">TS812/KADUM</Route>
+      <Tranisition Name="DILIN">DILIN</Tranisition>
+      <Tranisition Name="DOVIN">DOVIN</Tranisition>
+      <Tranisition Name="PATMA">PATMA</Tranisition>
+      <Tranisition Name="PTH">PTH</Tranisition>
     </SID>
     <SID Name="KADU2D" Airport="VVTS" Runways="25L,25R">
       <Route Runway="25L">TS616/TS636/TS638/TS686/KADUM</Route>
@@ -169,7 +232,89 @@
       <Tranisition Name="PATMA">PATMA</Tranisition>
       <Tranisition Name="PTH">PTH</Tranisition>
     </SID>
-   
+    <SID Name="KADU2F" Airport="VVTS" Runways="25L,25R">
+      <Route Runway="25L">TS652/TS658/TS686/KADUM</Route>
+      <Route Runway="25R">TS654/TS658/TS686/KADUM</Route>
+      <Tranisition Name="DILIN">DILIN</Tranisition>
+      <Tranisition Name="DOVIN">DOVIN</Tranisition>
+      <Tranisition Name="PATMA">PATMA</Tranisition>
+      <Tranisition Name="PTH">PTH</Tranisition>
+    </SID>
+    <SID Name="LANH2B" Airport="VVTS" Runways="07L,07R">
+      <Route Runway="07L">TS812/TS822/TS842/LANHI</Route>
+      <Route Runway="07R">TS812/TS822/TS842/LANHI</Route>
+      <Tranisition Name="ELSAS">ELSAS</Tranisition>
+    </SID>
+    <SID Name="LANH2D" Airport="VVTS" Runways="25L,25R">
+      <Route Runway="25L">TS612/TS826/TS628/TS632/LANHI</Route>
+      <Route Runway="25R">TS614/TS826/TS628/TS632/LANHI</Route>
+      <Tranisition Name="ELSAS">ELSAS</Tranisition>
+    </SID>
+    <SID Name="LANH2E" Airport="VVTS" Runways="25L,25R">
+      <Route Runway="25L">TS616/TS618/TS622/TS624/TS626/TS628/TS632/LANHI</Route>
+      <Route Runway="25R">TS616/TS618/TS622/TS624/TS626/TS628/TS632/LANHI</Route>
+      <Tranisition Name="ELSAS">ELSAS</Tranisition>
+    </SID>
+    <SID Name="MALA2B" Airport="VVTS" Runways="07L,07R">
+      <Route Runway="07L">TS812/TS822/TS824/TS826/TS828/MALAY</Route>
+      <Route Runway="07R">TS812/TS822/TS824/TS826/TS828/MALAY</Route>
+      <Tranisition Name="MALAY">MALAY</Tranisition>
+    </SID>
+    <SID Name="MISA2A" Airport="VVTS" Runways="07L,07R">
+      <Route Runway="07L">TS812/TS834/TS836/TS858/MISAN</Route>
+      <Route Runway="07R">TS812/TS834/TS836/TS858/MISAN</Route>
+      <Tranisition Name="TRN">TRN</Tranisition>
+    </SID>
+    <SID Name="MISA2B" Airport="VVTS" Runways="07L,07R">
+      <Route Runway="07L">TS854/TS856/TS858/MISAN</Route>
+      <Route Runway="07R">TS852/TS856/TS858/MISAN</Route>
+      <Tranisition Name="TRN">TRN</Tranisition>
+    </SID>
+    <SID Name="MISA2D" Airport="VVTS" Runways="25L,25R">
+      <Route Runway="25L">TS616/TS618/MISAN</Route>
+      <Route Runway="25R">TS616/TS618/MISAN</Route>
+      <Tranisition Name="TRN">TRN</Tranisition>
+    </SID>
+    <SID Name="SAPE2A" Airport="VVTS" Runways="07L,07R">
+      <Route Runway="07L">TS812/TS834/SAPEN</Route>
+      <Route Runway="07R">TS812/TS834/SAPEN</Route>
+    </SID>
+    <SID Name="SAPE2B" Airport="VVTS" Runways="25L,25R">
+      <Route Runway="25L">TS812/TS822/TS824/TS826/TS828/SAPEN</Route>
+      <Route Runway="25R">TS812/TS822/TS824/TS826/TS828/SAPEN</Route>
+    </SID>
+    <SID Name="TANO2B" Airport="VVTS" Runways="07L,07R">
+      <Route Runway="07L">TS812/TS822/TS842/TS844/TANOS</Route>
+      <Route Runway="07R">TS812/TS822/TS842/TS844/TANOS</Route>
+      <Tranisition Name="DILIN">DILIN</Tranisition>
+      <Tranisition Name="DOVIN">DOVIN</Tranisition>
+      <Tranisition Name="PTH">PTH</Tranisition>
+    </SID>
+    <SID Name="TANO2D" Airport="VVTS" Runways="25L,25R">
+      <Route Runway="25L">TS612/TS626/TS628/TS632/TANOS</Route>
+      <Route Runway="25R">TS614/TS626/TS628/TS632/TANOS</Route>
+      <Tranisition Name="DILIN">DILIN</Tranisition>
+      <Tranisition Name="DOVIN">DOVIN</Tranisition>
+      <Tranisition Name="PTH">PTH</Tranisition>
+    </SID>
+    <SID Name="TANO2E" Airport="VVTS" Runways="25L,25R">
+      <Route Runway="25L">TS616/TS618/TS622/TS624/TS626/TS628/TS632/TANOS</Route>
+      <Route Runway="25R">TS616/TS618/TS622/TS624/TS626/TS628/TS632/TANOS</Route>
+      <Tranisition Name="DILIN">DILIN</Tranisition>
+      <Tranisition Name="DOVIN">DOVIN</Tranisition>
+      <Tranisition Name="PTH">PTH</Tranisition>
+    </SID>
+    <SID Name="XOBA2B" Airport="VVTS" Runways="07L,07R">
+      <Route Runway="07L">TS812/TS822/TS824/TS826/TS828/XOBAV</Route>
+      <Route Runway="07R">TS812/TS822/TS824/TS826/TS828/XOBAV</Route>
+      <Tranisition Name="NIXIV">NIXIV</Tranisition>
+    </SID>
+    <SID Name="XOBA2B" Airport="VVTS" Runways="25L,25R">
+      <Route Runway="25L">TS616/TS641/TS642/TS644/XOBAV</Route>
+      <Route Runway="25R">TS616/TS641/TS642/TS644/XOBAV</Route>
+      <Tranisition Name="NIXIV">NIXIV</Tranisition>
+    </SID>
+  
  
     <STAR Name="POLI8A" Airport="YSCB" Runways="35">
       <Transition Name="ARRAN">ARRAN</Transition>
