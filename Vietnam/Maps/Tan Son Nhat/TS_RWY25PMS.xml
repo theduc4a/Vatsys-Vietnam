@@ -23,20 +23,13 @@
     <Line Name="TSA_CTA_133" Pattern="Dashed">+104256.000+1065035.000/+103056.000+1065455.000/+101900.000+1070546.000</Line>
     <Line Name="TSA_CTA_134" Pattern="Dashed">+112438.800+1065701.856/+111845.000+1064712.000/+105655.000+1065046.000</Line>
 
-    <Symbol Type="HollowTriangle">
-      <Point>KADUM</Point>
-      <Point>DOVIN</Point>
-      <Point>DILIN</Point>
-      <Point>PATMA</Point>
-      <Point>NIXIV</Point>
-      </Symbol>
-    <Symbol Type="SolidStar">
-
-    </Symbol>
     <Symbol Type="Circle">
       <Point>AC NDB</Point>
       <Point>SG NDB</Point>
       <Point>PTH</Point>
+    </Symbol>
+    <Symbol Type="SolidStar">
+    
     </Symbol>
     <Symbol Type="HollowStar">
 
@@ -178,5 +171,12 @@
     XOBAV/ 
     NIXIV
     </Line>
+     <Symbol Type="HollowTriangle">
+      <Point>KADUM</Point>
+      <Point>DOVIN</Point>
+      <Point>DILIN</Point>
+      <Point>PATMA</Point>
+      <Point>NIXIV</Point>
+      </Symbol>
   </Map>
 </Maps>

@@ -74,7 +74,6 @@
             <STAR Name="SAPE2G" />
             <STAR Name="DALA2G"  />
             <STAR Name="VICA3G"  />
-            <STAR Name="VICA3G"  />
           </Runway>
         <Runway Name="07R" DataRunway="07R">
             <SID Name="RDV" Default="True" />
@@ -93,7 +92,6 @@
             <STAR Name="BITI2G" />
             <STAR Name="SAPE2G" />
             <STAR Name="DALA2G"  />
-            <STAR Name="VICA3G"  />
             <STAR Name="VICA3G"  />
          </Runway>
       </Airport>
