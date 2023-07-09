@@ -181,6 +181,9 @@
     <Point Name="VANLI" Type="Fix">+10.508731+106.975997</Point>
     <Point Name="TS488" Type="Fix">+10.557950+107.102219</Point>
     <Point Name="RUNSI" Type="Fix">+10.592283+107.149136</Point>
+    <Point Name="TS422" Type="Fix">+10.831611+106.681056</Point>
+    <Point Name="TS424" Type="Fix">+10.860778+106.758361</Point>
+    <Point Name="TS426" Type="Fix">+10.884028+106.820083</Point>
     <Point Name="TS432" Type="Fix">+10.541600+106.969528</Point>
     <Point Name="TS436" Type="Fix">+10.668789+107.175261</Point>
     <Point Name="TS434" Type="Fix">+10.586350+107.084286</Point>
@@ -390,18 +393,18 @@
     </STAR>
     <STAR Name="BITI2H" Airport="VVTS" Runways="25L,25R">
       <Transition Name="TRN">TRN</Transition>
-      <Route Runway="25L">BITIS/NOKUM/TS492/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN</Route>
-      <Route Runway="25R">BITIS/NOKUM/TS492/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN</Route>
+      <Route Runway="25L">BITIS/NOKUM/TS492/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN/TS416/TS414/TS412</Route>
+      <Route Runway="25R">BITIS/NOKUM/TS492/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN/TS462/TS424/TS422</Route>
     </STAR>
     <STAR Name="BITI2J" Airport="VVTS" Runways="25L,25R">
       <Transition Name="TRN">TRN</Transition>
-      <Route Runway="25L">BITIS/TS484/TS482/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU</Route>
-      <Route Runway="25R">BITIS/TS484/TS482/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU</Route>
+      <Route Runway="25L">BITIS/TS484/TS482/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU/TS416/TS414/TS412</Route>
+      <Route Runway="25R">BITIS/TS484/TS482/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU/TS462/TS424/TS422</Route>
     </STAR>
     <STAR Name="DALA2G" Airport="VVTS" Runways="07L,07R">
       <Transition Name="DOVIN">DOVIN</Transition>
       <Transition Name="PTH">PTH</Transition>
-      <Transition Name="RINKU">RINKU</Transition>
+      <Transition Name="RINKU">DOVIN/TS918/TS916/TS914/TS912/RINKU/PTH</Transition>
       <Transition Name="VETOM">VETOM</Transition>
       <Route Runway="07R">DALAP/TS548/TS546/TS544/ENROP/TS542/TS538/TS536/TS534/SAMDU</Route>
       <Route Runway="07L">DALAP/TS548/TS546/TS544/ENROP/TS542/TS538/TS536/TS534/SAMDU</Route>
@@ -409,34 +412,35 @@
     <STAR Name="DALA2H" Airport="VVTS" Runways="25L,25R">
       <Transition Name="DOVIN">DOVIN</Transition>
       <Transition Name="PTH">PTH</Transition>
-      <Transition Name="RINKU">RINKU</Transition>
+      <Transition Name="RINKU">DOVIN/TS918/TS916/TS914/TS912/RINKU/PTH</Transition>
       <Transition Name="VETOM">VETOM</Transition>
-      <Route Runway="25R">DALAP/VIKEP/TS452/TS438/TS436/TS434/TS432/SOKAN</Route>
-      <Route Runway="25L">DALAP/VIKEP/TS452/TS438/TS436/TS434/TS432/SOKAN</Route>
+      <Route Runway="25R">DALAP/VIKEP/TS452/TS438/TS436/TS434/TS432/SOKAN/TS416/TS414/TS412</Route>
+      <Route Runway="25L">DALAP/VIKEP/TS452/TS438/TS436/TS434/TS432/SOKAN/TS462/TS424/TS422</Route>
     </STAR>
     <STAR Name="DALA2J" Airport="VVTS" Runways="25L,25R">
       <Transition Name="DOVIN">DOVIN</Transition>
       <Transition Name="PTH">PTH</Transition>
-      <Transition Name="RINKU">RINKU</Transition>
+      <Transition Name="RINKU">DOVIN/TS918/TS916/TS914/TS912/RINKU/PTH</Transition>
       <Transition Name="VETOM">VETOM</Transition>
-      <Route Runway="25L">DALAP/ANSUP/TS448/TS446/TS444/TS442/BOMSU</Route>
-      <Route Runway="25R">DALAP/ANSUP/TS448/TS446/TS444/TS442/BOMSU</Route>
+      <Transition Name="ELSAS">ELSAS</Transition>
+      <Route Runway="25L">DALAP/ANSUP/TS448/TS446/TS444/TS442/BOMSU/TS416/TS414/TS412</Route>
+      <Route Runway="25R">DALAP/ANSUP/TS448/TS446/TS444/TS442/BOMSU/TS462/TS424/TS422</Route>
     </STAR>
     <STAR Name="ELSA2H" Airport="VVTS" Runways="25L,25R">
-      <Route Runway="25R">ELSAS/GOMIN/RUNSI/TS458/TS456/TS454/SOKAN</Route>
-      <Route Runway="25L">ELSAS/GOMIN/RUNSI/TS458/TS456/TS454/SOKAN</Route>
+      <Route Runway="25R">ELSAS/GOMIN/RUNSI/TS458/TS456/TS454/SOKAN/TS416/TS414/TS412</Route>
+      <Route Runway="25L">ELSAS/GOMIN/RUNSI/TS458/TS456/TS454/SOKAN/TS462/TS424/TS422</Route>
     </STAR>
     <STAR Name="SAPE2G" Airport="VVTS" Runways="07L,07R">
       <Route Runway="07L">SAPEN/TS584/TS582/LOTVU/TS568/TS566/TS564/TS562/SAMDU</Route>
       <Route Runway="07R">SAPEN/TS584/TS582/LOTVU/TS568/TS566/TS564/TS562/SAMDU</Route>
     </STAR>
     <STAR Name="SAPE2H" Airport="VVTS" Runways="25L,25R">
-      <Route Runway="25L">SAPEN/TS498/TS496/NOKUM/TS492/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN</Route>
-      <Route Runway="25R">SAPEN/TS498/TS496/NOKUM/TS492/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN</Route>
+      <Route Runway="25L">SAPEN/TS498/TS496/NOKUM/TS492/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN/TS416/TS414/TS412</Route>
+      <Route Runway="25R">SAPEN/TS498/TS496/NOKUM/TS492/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN/TS462/TS424/TS422</Route>
     </STAR>
     <STAR Name="SAPE2J" Airport="VVTS" Runways="25L,25R">
-      <Route Runway="25L">SAPEN/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU</Route>
-      <Route Runway="25R">SAPEN/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU</Route>
+      <Route Runway="25L">SAPEN/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU/TS416/TS414/TS412</Route>
+      <Route Runway="25R">SAPEN/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU/TS462/TS424/TS422</Route>
     </STAR>
     <STAR Name="VICA3G" Airport="VVTS" Runways="07L,07R">
       <Transition Name="ELSAS">ELSAS</Transition>
@@ -446,13 +450,13 @@
     </STAR>
     <STAR Name="VICA3H" Airport="VVTS" Runways="25L,25R">
       <Transition Name="NIXIV">NIXIV</Transition>
-      <Route Runway="25L">VICAL/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN</Route>
-      <Route Runway="25R">VICAL/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN</Route>
+      <Route Runway="25L">VICAL/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN/TS416/TS414/TS412</Route>
+      <Route Runway="25R">VICAL/LETRO/VANLI/TS488/RUNSI/TS458/TS456/TS454/SOKAN/TS462/TS424/TS422</Route>
     </STAR>
     <STAR Name="VICA3J" Airport="VVTS" Runways="25L,25R">
       <Transition Name="NIXIV">NIXIV</Transition>
-      <Route Runway="25L">VICAL/TS484/TS482/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU</Route>
-      <Route Runway="25R">VICAL/TS484/TS482/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU</Route>
+      <Route Runway="25L">VICAL/TS484/TS482/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU/TS416/TS414/TS412</Route>
+      <Route Runway="25R">VICAL/TS484/TS482/BUTGA/NUNGO/TS468/TS466/TS464/TS462/BOMSU/TS462/TS424/TS422</Route>
     </STAR>
   </SIDSTARs>
 </Airspace>

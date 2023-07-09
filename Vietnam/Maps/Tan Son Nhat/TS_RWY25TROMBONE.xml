@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="TS_RWY25TROMBONE" Priority="1" Center="+10.816300+106.661900">
-    <!--YSSY-->
-    <Runway Name="07R/25L">
-      <Threshold Name="07R" Position="+10.813833+106.643333" />
-      <Threshold Name="25L" Position="+10.823667+106.669500" ExtendedCentrelineTrack="68.98" ExtendedCentrelineLength="16" ExtendedCentrelineTickInterval="2"/>
-    </Runway>
-    <Runway Name="07L/25R">
-      <Threshold Name="07L" Position="+10.815000+106.637167" />
-      <Threshold Name="25R" Position="+10.824833+106.663167" ExtendedCentrelineTrack="68.98" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
-    </Runway>
-
     <!--TST AND TSA SECTOR BOUNDARIES-->
-    <Line Name="TSA_CTA_125" Width="1.7" Pattern="Dotted">+104859.000+1063844.000/+105147.254+1064256.021</Line>
-    <Line Name="TSA_CTA_126" Width="1.7" Pattern="Dotted">+105655.000+1065046.000/+105147.254+1064256.021</Line>
-    <Line Name="TSA_CTA_127" Width="1.7" Pattern="Dotted">+105655.000+1065046.000/+105322.000+1065124.000/+104256.000+1065035.000</Line>
-    <Line Name="TSA_CTA_128" Width="1.7" Pattern="Dotted">+104641.242+1064314.531/+104256.000+1065035.000</Line>
-    <Line Name="TSA_CTA_129" Width="1.7" Pattern="Dotted">+104641.242+1064314.531/+104859.000+1063844.000</Line>
-    <Symbol Type="HollowTriangle">
-      
-    </Symbol>
-    <Symbol Type="SolidStar">
-     
-    </Symbol>
+    <Line Name="TSA_CTA" Width="1.7" Pattern="Dotted">+112438.800+1065701.856/+111845.000+1064712.000/+105655.000+1065046.000/TSH VOR/+104256.000+1065035.000/+103056.000+1065455.000/+101900.000+1070546.000</Line>
+    <!--TSA SECTOR LLS-->
+    <Line Name="TSA_CTA_125" Pattern="Dashed">TSH VOR/+105147.254+1064256.021</Line>
+    <Line Name="TSA_CTA_126" Pattern="Dashed">+105655.000+1065046.000/+105147.254+1064256.021</Line>
+    <Line Name="TSA_CTA_127" Pattern="Dashed">+105655.000+1065046.000/+105322.000+1065124.000/+104256.000+1065035.000</Line>
+    <Line Name="TSA_CTA_129" Pattern="Dashed">+104256.000+1065035.000/TSH VOR</Line>
+    <Line Name="TSA_CTA_131" Pattern="Dashed">+110422.000+1071618.000/+110021.000+1071009.000/+105309.000+1071212.000/+105343.000+1071906.000</Line>
+    <Line Name="TSA_CTA_133" Pattern="Dashed">+104256.000+1065035.000/+103056.000+1065455.000/+101900.000+1070546.000</Line>
+    <Line Name="TSA_CTA_134" Pattern="Dashed">+112438.800+1065701.856/+111845.000+1064712.000/+105655.000+1065046.000</Line>
     <Symbol Type="Circle">
       <Point>AC NDB</Point>
       <Point>SG NDB</Point>
-    </Symbol>
-    <Symbol Type="HollowStar">
-      
+      <Point>PTH</Point>
     </Symbol>
   </Map>
 </Maps>
