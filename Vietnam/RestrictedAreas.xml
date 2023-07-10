@@ -57,9 +57,6 @@
     +10.924993+106.593657/
     +10.925526+106.600556
   </Area>
-  <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
   </RestrictedArea>
   <RestrictedArea Type="Danger" Name="VV(D)-23" AltitudeFloor="100" AltitudeCeiling="3300" DAIWEnabled="true" LinePattern="Dotted">
   <Area>
@@ -105,9 +102,6 @@
   +10.964715+106.720879/
   +10.965249+106.727778
   </Area>
-  <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
   </RestrictedArea>
   <RestrictedArea Type="Danger" Name="VV(D)-24" AltitudeFloor="100" AltitudeCeiling="3300" DAIWEnabled="true" LinePattern="Dotted">
   <Area>
@@ -153,9 +147,6 @@
   +10.738604+106.733384/
   +10.739138+106.740278
   </Area>
-  <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
   </RestrictedArea>
   <RestrictedArea Type="Danger" Name="VV(D)-25" AltitudeFloor="900" AltitudeCeiling="3300" DAIWEnabled="true" LinePattern="Dotted">
   <Area>
@@ -201,9 +192,6 @@
   +10.714438+106.581718/
   +10.714971+106.588611
   </Area>
-  <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
   </RestrictedArea>
   <RestrictedArea Type="Restricted" Name="Tan An" AltitudeFloor="1900" AltitudeCeiling="19700" DAIWEnabled="true" LinePattern="Solid">
   <Area>
@@ -249,9 +237,6 @@
   +10.674615+106.399102/
   +10.676297+106.420833
   </Area>
-  <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
   </RestrictedArea>
   <RestrictedArea Type="Restricted" Name="Bien Hoa" AltitudeFloor="0" AltitudeCeiling="23000" DAIWEnabled="true" LinePattern="Solid">
   <Area>
@@ -271,9 +256,6 @@
   +10.920000+106.771667/
   +11.225278+106.110000
   </Area>
-  <Activations>
-        <Activation H24="true" Start="0000" End="0000" />
-      </Activations>
   </RestrictedArea>
   </Areas>
 </RestrictedAreas>
