@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Radars>
-  <Radar Name="RADAR1" Type="PRI" Elevation="100" MaxRange="250">
+  <Radar Name="SGN1" Type="PRI" Elevation="100" MaxRange="80">
     <Lat>+10.828056</Lat>
     <Long>+106.658333</Long>
   </Radar>
-  <Radar Name="Radar2" Type="SSR_ModeS" Elevation="100" Maxrange="250">
+  <Radar Name="SGN2" Type="SSR_ModeS" Elevation="100" Maxrange="250">
     <Lat>+10.826389</Lat>
     <Long>+106.658333</Long>
-  <Radar Name="Radar2" Type="SSR_ModeC" Elevation="100" Maxrange="250"></Radar>
   </Radar>
 </Radars>
