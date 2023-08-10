@@ -170,4 +170,7 @@
   <Volume Name="TSN" LowerLimit="0" UpperLimit="16500">
     <Boundaries>TS_TMA_UPPER</Boundaries>
   </Volume>
+  <Volume Name="HCM" LowerLimit="0" UpperLimit="41000">
+    <Boundaries>TS_TMA_UPPER</Boundaries>
+  </Volume>
 </Volumes>

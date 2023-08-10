@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sector FullName="Ho Chi Minh Control" Frequency="132.350" Callsign="VVHM_CTR" Name="HCM">
+    <Volumes>HCM</Volumes>
+    <ResponsibleSectors>TSA</ResponsibleSectors>
+  </Sector>
   <Sector FullName="Tan Son Nhat Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TSTE">
     <Volumes>TSN</Volumes>
     <ResponsibleSectors>TSA</ResponsibleSectors>

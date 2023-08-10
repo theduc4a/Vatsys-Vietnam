@@ -9,8 +9,10 @@
          <Point>+10.816300+106.661900</Point>
        </ManualVisibility>
        <Maps>
-         <Map Name="ALL_CTA" />
          <Map Name="Tan Son Nhat/TS_RWY25PMS" />
+         <Map Name="Tan Son Nhat/25R" />
+         <Map Name="Tan Son Nhat/25PMS_NAMES" />
+         <Map Name="Tan Son Nhat/25PMS_WPT" />
        </Maps>
        <ATIS>
          <Editor Airport="VVTS" Frequency="128.0" />

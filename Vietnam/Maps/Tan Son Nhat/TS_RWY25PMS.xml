@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="TS_RWY25PMS" Priority="1" Center="+10.816300+106.661900">
-    <!--VVTS-->
-    <Runway Name="07R/25L">
-      <Threshold Name="07R" Position="+10.813833+106.643333" />
-      <Threshold Name="25L" Position="+10.823667+106.669500" />
-    </Runway>
-    <Runway Name="07L/25R">
-      <Threshold Name="07L" Position="+10.815000+106.637167" />
-      <Threshold Name="25R" Position="+10.824833+106.663167" ExtendedCentrelineTrack="68.98" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
-    </Runway>
+  <Map Type="System" Name="25R" Priority="1" Center="+10.816300+106.661900">
+    <Line Name="Runway">
+      +10.815000+106.637167/
+      +10.824833+106.663167
+    </Line>
+  </Map>
+  <Map Type="System2" Name="TS_RWY25PMS" Priority="1" Center="+10.816300+106.661900">
     <Line Name="PMS Ring 1" Pattern="Broken">
     +10.787778+106.921111/
     +10.799167+106.950556/
@@ -34,7 +31,12 @@
     <Line Pattern="Broken" Length="2"> 
     SOKAN/ 
     TS426/ 
-    TS422
+    TS422/ 
+    +10.824833+106.663167
+    </Line>
+    <Line Pattern="Broken" Length="2">  
+    +10.908333+106.884722/
+    TS426 
     </Line>
     <Line>
     <!--XXXX2H ARC--> 
@@ -270,7 +272,7 @@
       <Point>NIXIV</Point>
       </Symbol>
   </Map>
-  <Map Type="System" Name="25PMS_WPT" Priority="2" Center="+10.816300+106.661900">
+  <Map Type="System2" Name="25PMS_WPT" Priority="2" Center="+10.816300+106.661900">
   <Symbol Type="Circle">
       <Point>PTH</Point>
       <Point>TRN</Point>
@@ -281,20 +283,18 @@
       <Point>ELSAS</Point>
       <Point>NIXIV</Point>
       <Point>RINKU</Point>
-  </Symbol>  
-  <Symbol Type="SolidStar">
-    <Point>BITIS</Point>
-    <Point>SAPEN</Point>
+      <Point>BITIS</Point>
+      <Point>SAPEN</Point>
+      <Point>NOKUM</Point>
+      <Point>LETRO</Point>
+      <Point>VANLI</Point>
+      <Point>DALAP</Point>
+      <Point>VIKEP</Point>
+    </Symbol>  
+    <Symbol Type="HollowStar">
     <Point>VICAL</Point>
     <Point>GOMIN</Point>
-    <Point>NOKUM</Point>
-    <Point>LETRO</Point>
-    <Point>VANLI</Point>
     <Point>RUNSI</Point>
-    <Point>DALAP</Point>
-    <Point>VIKEP</Point>
-  </Symbol>
-    <Symbol Type="HollowStar">
     <Point>TS918</Point>
     <Point>TS916</Point>
     <Point>TS914</Point>
@@ -313,7 +313,7 @@
     <Point>TS432</Point>
     </Symbol> 
     </Map>
-  <Map Type="System" Name="25PMS_NAMES" Priority="2" Center="+10.816300+106.661900">
+  <Map Type="System2" Name="25PMS_NAMES" Priority="2" Center="+10.816300+106.661900">
     <Label>
       <Point>DOVIN</Point>
       <Point>VETOM</Point>
@@ -325,34 +325,46 @@
       <Point>ELSAS</Point>
       <Point>NIXIV</Point>
       <Point>RINKU</Point>
-      <Point>BITIS</Point>
       <Point>SAPEN</Point>
+      <Point>SOKAN</Point>
       <Point>VICAL</Point>
       <Point>GOMIN</Point>
       <Point>NOKUM</Point>
       <Point>LETRO</Point>
-      <Point>VANLI</Point>
-      <Point>RUNSI</Point>
-      <Point>DALAP</Point>
-      <Point>VIKEP</Point>
       <Point>TS918</Point>
       <Point>TS916</Point>
       <Point>TS914</Point>
       <Point>TS912</Point>
-      <Point>TS498</Point>
       <Point>TS496</Point>
       <Point>TS492</Point>
-      <Point>TS488</Point>
-      <Point>TS458</Point>
       <Point>TS456</Point>
       <Point>TS454</Point>
-      <Point>TS452</Point>
-      <Point>TS438</Point>
-      <Point>TS436</Point>
-      <Point>TS434</Point>
-      <Point>TS432</Point>
       <Point>TRN</Point>
       <Point>PTH</Point>
+    </Label>
+    <Label HasLeader="bool" LabelOrientation="S">
+      <Point>TS416</Point>
+      <Point>VANLI</Point>
+    </Label>
+    <Label HasLeader="bool" LabelOrientation="S" Alignment="Center">
+      <Point>TS498</Point>
+    </Label>
+    <Label HasLeader="bool" LabelOrientation="E">
+      <Point>TS458</Point>
+      <Point>BITIS</Point>
+      <Point>RUNSI</Point>
+      <Point>TS488</Point>
+    </Label>
+    <Label HasLeader="bool" LabelOrientation="NW">
+      <Point>TS452</Point>
+      <Point>TS434</Point>
+      <Point>TS438</Point>
+      <Point>TS436</Point>
+      <Point>VIKEP</Point>
+      <Point>DALAP</Point>
+    </Label>
+    <Label HasLeader="bool" LabelOrientation="N">
+      <Point>TS432</Point>
     </Label>
   </Map>
 </Maps>
