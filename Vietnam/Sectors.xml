@@ -16,7 +16,7 @@
     <Volumes>TSN</Volumes>
     <ResponsibleSectors>TSA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Arrival" Frequency="126.350" Callsign="VVTS-F_APP" Name="TSA">
+  <Sector FullName="Arrival" Frequency="126.350" Callsign="VVTS_F_APP" Name="TSA">
     <Volumes>TSN</Volumes>
   </Sector>
   <Sector FullName="TSN Tower" Frequency="118.7" Callsign="VVTS_TWR" Name="TST">
