@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Sector FullName="Ho Chi Minh Control" Frequency="132.350" Callsign="VVHM_CTR" Name="HCM">
-    <Volumes>HCM</Volumes>
+  <Sector FullName="HCM ACC" Frequency="132.350" Callsign="VVHM_CTR" Name="HCM">
+    <Volumes>VVHM_1,TSN_CAP</Volumes>
+    <ResponsibleSectors>TSA,HCM2</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 2" Frequency="120.1" Callsign="VVHM_2_CTR" Name="HCM2">
+    <Volumes>VVHM_1,TSN_CAP</Volumes>
     <ResponsibleSectors>TSA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Tan Son Nhat Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TSTE">
+  <Sector FullName="Mekong Radar" Frequency="129.425" Callsign="VCL_CTR" Name="VCL">
+    <Volumes>VVHM_1,TSN_CAP</Volumes>
+    <ResponsibleSectors>HCM,TSA,HCM2</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TSTE">
     <Volumes>TSN</Volumes>
     <ResponsibleSectors>TSA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Tan Son Nhat Arrival" Frequency="126.350" Callsign="VVTS-F_APP" Name="TSA">
-    <Volumes>TSTE</Volumes>
+  <Sector FullName="Arrival" Frequency="126.350" Callsign="VVTS-F_APP" Name="TSA">
+    <Volumes>TSN</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Tower" Frequency="118.7" Callsign="VVTS_TWR" Name="TST">
+  <Sector FullName="TSN Tower" Frequency="118.7" Callsign="VVTS_TWR" Name="TST">
     <Volumes>TST</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Ground" Frequency="121.9" Callsign="VVTS_GND" Name="TSG">
+  <Sector FullName="TSN Ground" Frequency="121.9" Callsign="VVTS_GND" Name="TSG">
     <Volumes>TST</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Ground" Frequency="121.6" Callsign="VVTS_2_GND" Name="TSG2">
+  <Sector FullName="TSN Ground" Frequency="121.6" Callsign="VVTS_2_GND" Name="TSG2">
     <Volumes>TST</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TSD">
+  <Sector FullName="TSN Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TSD">
     <Volumes>TST</Volumes>
   </Sector>
 </Sectors>
