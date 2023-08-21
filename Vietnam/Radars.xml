@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Radars>
   <!--Primary-->
-  <Radar Name="SGN1" Type="SSR_ModeS" Elevation="100" MaxRange="255">
+  <Radar Name="SGN1" Type="SSR_ModeC" Elevation="100" MaxRange="255">
+    <Lat>+10.828056</Lat>
+    <Long>+106.658333</Long>
+  </Radar>
+  <Radar Name="SGN1-1" Type="PRI" Elevation="100" MaxRange="45">
     <Lat>+10.828056</Lat>
     <Long>+106.658333</Long>
   </Radar>
@@ -68,6 +72,10 @@
     <Lat>+12.003889</Lat>
     <Long>+109.214722</Long>
   </Radar>
+  <Radar Name="SGN_G" Type="SMR_ADSB" Elevation="500" Maxrange="5">
+    <Lat>+10.826389</Lat>
+    <Long>+106.658333</Long>
+  </Radar>
   <Radar Name="Cat BI" Type="ADSB" Elevation="100" MaxRange="250">
     <Lat>+20.821389</Lat>
     <Long>+106.723056</Long>
@@ -124,4 +132,6 @@
     <Lat>+18.730556</Lat>
     <Long>+105.668889</Long>
   </Radar>
+  <!-- Ground Radar-->
+
 </Radars>
