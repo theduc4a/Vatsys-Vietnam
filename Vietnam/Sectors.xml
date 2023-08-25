@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="HCM ACC" Frequency="132.350" Callsign="VVHM_CTR" Name="HCM">
-    <Volumes>HCM,TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QI</Volumes>
+    <Volumes>HCM,TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QL</Volumes>
     <ResponsibleSectors>TSA,HC1,HC2,HC3HC4,HC5,HC6</ResponsibleSectors>
   </Sector>
   <Sector FullName="Mekong Radar" Frequency="129.425" Callsign="VCL_CTR" Name="VCL">
     <Volumes>HCM,TSN,TSN_CAP</Volumes>
     <ResponsibleSectors>HCM</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="HCM North" Frequency="123.525" Callsign="VVHM_A_CTR" Name="HCN">
+    <Volumes>TSN,TSN_CAP</Volumes>
+    <ResponsibleSectors>TSN</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="HCM South" Frequency="124.975" Callsign="VVHM_B_CTR" Name="HCS">
+    <Volumes>TSN,TSN_CAP</Volumes>
+    <ResponsibleSectors>TSN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 1" Frequency="134.050" Callsign="VVHM_1_CTR" Name="HC1">
     <Volumes>TSN,TSN_CAP</Volumes>
@@ -51,4 +59,30 @@
   <Sector FullName="TSN Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TSD">
     <Volumes>TST</Volumes>
   </Sector>
+  <!--Other Sectors-->
+  <Sector FullName="HNI ACC" Frequency="121.8" Callsign="VVHN_CTR" Name="HNI">
+    <Volumes>HNI</Volumes>
+  </Sector>
+  <Sector FullName="MNL_CTR" Frequency="119.3" Callsign="MNL_CTR" Name="MNL">
+    <Volumes>RPHI</Volumes>
+  </Sector>
+  <Sector FullName="ZJSA_CTR" Frequency="120.5" Callsign="ZSJA_CTR" Name="ZJSA">
+    <Volumes>ZJSA</Volumes>
+  </Sector>
+  <Sector FullName="ZJYY_CTR" Frequency="133.2" Callsign="ZSJY_CTR" Name="ZJSY">
+    <Volumes>ZJSY</Volumes>
+  </Sector>
+  <Sector FullName="WSJC_CTR" Frequency="123.7" Callsign="WSJC_CTR" Name="WSJC">
+    <Volumes>WSJC</Volumes>
+  </Sector>
+  <Sector FullName="VTBB_CTR" Frequency="119.3" Callsign="VTBB_CTR" Name="VTBB">
+    <Volumes>VTBB</Volumes>
+  </Sector>
+  <Sector FullName="VDPF_CTR" Frequency="132.1" Callsign="VVDPF_CTR" Name="VDPF">
+    <Volumes>VDPF</Volumes>
+  </Sector>
+  <Sector FullName="VLVT_CTR" Frequency="128.3" Callsign="VVLVT_CTR" Name="VLVT">
+    <Volumes>VLVT</Volumes>
+  </Sector>
+
 </Sectors>

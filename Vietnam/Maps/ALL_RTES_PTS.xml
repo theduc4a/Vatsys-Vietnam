@@ -2,9 +2,9 @@
 <Maps>
   <Map Type="System" Name="ALL_ROUTES_HIGH" Priority="1" Center="+14.651700+108.427600">
     <Line Name="A1_0">IKELA.A1.BKK</Line>
-    <Line Name="B202_0">PLK.B202.BOMPA</Line>
+    <Line Name="B202_0">PLK.B202.UBL</Line>
     <Line Name="G221_0">PCA.G221.BUNTA</Line>
-    <Line Name="G474_0">ANINA.G474.PCA</Line>
+    <Line Name="G474_0">BKK.G474.PCA</Line>
     <Line Name="L625_0">TOMAN.L625.MEVIN</Line>
     <Line Name="L628_0">PCA.L628.ARESI</Line>
     <Line Name="L637_0">BITOD.L637.TSH</Line>
@@ -12,8 +12,9 @@
     <Line Name="L643_0">TSH.L643.CN</Line>
     <Line Name="L644_0">AC.L644.DUDIS</Line>
     <Line Name="N500_0">TSH.N500.PANDI</Line>
+    <Line Name="N506_0">SRE.506.BMT</Line>
     <Line Name="N639_0">NAH.N639.PNH</Line>
-    <Line Name="M505_0">BMT.M505.PAPLO</Line>
+    <Line Name="M505_0">BMT.M505.SRE</Line>
     <Line Name="M510_0">PNH.M510.TRN</Line>
     <Line Name="M753_0">ENREP.M753.PNH</Line>
     <Line Name="M755_0">PNH.M755.BITOD</Line>
@@ -22,11 +23,14 @@
     <Line Name="M771_0">VMR.M771.CH</Line>
     <Line Name="N891_0">bkk.N891.IGARI</Line>
     <Line Name="N892_0">VMR.N892.HCN</Line>
+    <Line Name="P505_0">PNH.P505.ELMOP</Line>
+    <Line Name="P629_0">BKK.P629.ELMOP</Line>
     <Line Name="Q15_0">CRA.Q15.MESOX</Line>
-    <Line Name="R328_0">HUE.R328.TORED</Line>
+    <Line Name="R328_0">HUE.R328.SAV</Line>
     <Line Name="R334_0">PQU.R334.NUMDI</Line>
     <Line Name="R468_0">SAPEN.R468.TSH</Line>
-    <Line Name="R588_0">GONLY.R588.PLK</Line>
+    <Line Name="R575_0">PAPRA.R575.PUT</Line>
+    <Line Name="R588_0">PUT.R588.PLK</Line>
     <Line Name="W1_0">NOB.W1.TSH</Line>
     <Line Name="W2_0">NAH.W2.TSH</Line>
     <Line Name="W7_0">LKH.W7.BMT</Line>
