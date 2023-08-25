@@ -8,8 +8,8 @@
     <Line Name="L625_0">TOMAN.L625.MEVIN</Line>
     <Line Name="L628_0">PCA.L628.ARESI</Line>
     <Line Name="L637_0">BITOD.L637.TSH</Line>
-    <Line Name="L642_0">CSN.L644.ENREP</Line>
-    <Line Name="L643_0">CSN.L643.TSN</Line>
+    <Line Name="L642_0">CH.L642.VMR</Line>
+    <Line Name="L643_0">TSH.L643.CN</Line>
     <Line Name="L644_0">AC.L644.DUDIS</Line>
     <Line Name="N500_0">TSH.N500.PANDI</Line>
     <Line Name="N639_0">NAH.N639.PNH</Line>
@@ -162,6 +162,7 @@
       <Point>MIBAN</Point>
       <Point>XIVIN</Point>
       <Point>UPVAN</Point>
+      <Point>EXOTO</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>CALAR</Point>

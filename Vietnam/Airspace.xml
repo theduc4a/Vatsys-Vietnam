@@ -23,5 +23,27 @@
         <SID Name="[A-Z]{4}(?!1C)\dC" />
         </Runway>
       </Airport>
+      <Airport Name="VVDN">
+        <Runway Name="17L" DataRunway="17L">
+        <STAR Name="[A-Z]{4}\dD" ApproachName="VORW" />
+        <STAR Name="[A-Z]{4}\dE" ApproachName="VORW" />
+        <SID Name="[A-Z]{4}\dA" />
+        </Runway>
+        <Runway Name="35R" DataRunway="35R">
+        <STAR Name="[A-Z]{4}\dK" ApproachName="ILSV" />
+        <STAR Name="[A-Z]{4}\dL" ApproachName="ILSV" />
+        <SID Name="[A-Z]{4}\dG" />
+        </Runway>
+        <Runway Name="17R" DataRunway="17R">
+          <STAR Name="[A-Z]{4}\dD" ApproachName="VORW" />
+          <STAR Name="[A-Z]{4}\dE" ApproachName="VORW" />
+          <SID Name="[A-Z]{4}\dA" />
+      </Runway>
+      <Runway Name="35L" DataRunway="35L">
+        <STAR Name="[A-Z]{4}\dK" ApproachName="ILSV" />
+        <STAR Name="[A-Z]{4}\dL" ApproachName="ILSV" />
+        <SID Name="[A-Z]{4}\dG" />
+        </Runway>
+      </Airport>
   </SystemRunways>
 </Airspace>
