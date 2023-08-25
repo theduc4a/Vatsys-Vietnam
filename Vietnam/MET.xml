@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <MET>
   <GRIB url="http://sawbe.com/GRIB/" fileName="world.grib2" />
-  <ProductTypes>
-    <TAF url="https://aviationweather.gov/adds/dataserver_current/httpparam?dataSource=tafs&amp;requestType=retrieve&amp;format=xml&amp;stationString=%ICAO&amp;hoursBeforeNow=0&amp;timeType=valid&amp;mostRecent=true" xmlDataTag="raw_text" mostRecent="true"/>
-  </ProductTypes>
   <Browsers>
-    <AreaQNH url="http://reg.bom.gov.au/products/reg/QNH.shtml#aus" Username="bomw0007" Password="aviation" />
-    <WXRadars url="http://www.bom.gov.au/australia/radar/" />
-    <BOM url="http://www.bom.gov.au/aviation/" />
-    <TFMS url="https://maestro.vatpac.org" />
+    <ENR_Cheat_Sheet url="https://docs.google.com/spreadsheets/d/1K6AsNmLOKWdVp7sNTwO76vtaWySGf2aKuCoHIOt2SyM/edit#gid=806533175" />
+    <HCM_SOP url="https://drive.google.com/file/d/1guowVskSOW94qaqxfqX_L0pTTHvpTKws/view" />
+    <VVTS_SOP url="https://drive.google.com/file/d/11U7kG6FH3-bSR_mBiqZ8yBfbPKlSgxBB/view" />
+    <TSN_SOP url="https://drive.google.com/file/d/11ZjoYAgCSI_zaeJEKubikAwkKQDl4J6F/view" />
     <SimATC url="https://sim-atc.com/?vatsys=true" />
     <SepCalc url="https://www.worldflight.com.au/files/sepcalc1.html" />
-    <SOPs url="https://sops.vatpac.org" />
     <SkyVector url="https://skyvector.com" />
   </Browsers>
 </MET>

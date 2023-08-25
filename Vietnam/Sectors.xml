@@ -1,26 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Sector FullName="Ho Chi Minh Control" Frequency="132.350" Callsign="VVHM_CTR" Name="HCM">
-    <Volumes>HCM</Volumes>
-    <ResponsibleSectors>TSA</ResponsibleSectors>
+  <Sector FullName="HCM ACC" Frequency="132.350" Callsign="VVHM_CTR" Name="HCM">
+    <Volumes>HCM,TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QI</Volumes>
+    <ResponsibleSectors>TSA,HC1,HC2,HC3HC4,HC5,HC6</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Tan Son Nhat Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TSTE">
+  <Sector FullName="Mekong Radar" Frequency="129.425" Callsign="VCL_CTR" Name="VCL">
+    <Volumes>HCM,TSN,TSN_CAP</Volumes>
+    <ResponsibleSectors>HCM</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 1" Frequency="134.050" Callsign="VVHM_1_CTR" Name="HC1">
+    <Volumes>TSN,TSN_CAP</Volumes>
+    <ResponsibleSectors>TSN</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 2" Frequency="120.1" Callsign="VVHM_2_CTR" Name="HC2">
+    <Volumes>TSN,TSN_CAP</Volumes>
+    <ResponsibleSectors>TSN</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 3" Frequency="120.9" Callsign="VVHM_3_CTR" Name="HC3">
+    <Volumes>TSN,TSN_CAP</Volumes>
+    <ResponsibleSectors>TSN</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 4" Frequency="133.050" Callsign="VVHM_4_CTR" Name="HC4">
+    <Volumes>TSN,TSN_CAP</Volumes>
+    <ResponsibleSectors>TSN</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 5" Frequency="120.7" Callsign="VVHM_5_CTR" Name="HC5">
+    <Volumes>TSN,TSN_CAP</Volumes>
+    <ResponsibleSectors>TSN</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 6" Frequency="128.175" Callsign="VVHM_6_CTR" Name="HC6">
+    <Volumes>TSN,TSN_CAP</Volumes>
+    <ResponsibleSectors>TSN</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TSN">
     <Volumes>TSN</Volumes>
     <ResponsibleSectors>TSA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Tan Son Nhat Arrival" Frequency="126.350" Callsign="VVTS-F_APP" Name="TSA">
-    <Volumes>TSTE</Volumes>
+  <Sector FullName="Arrival" Frequency="126.350" Callsign="VVTS_F_APP" Name="TSA">
+    <Volumes>TSN</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Tower" Frequency="118.7" Callsign="VVTS_TWR" Name="TST">
+  <Sector FullName="TSN Tower" Frequency="118.7" Callsign="VVTS_TWR" Name="TST">
     <Volumes>TST</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Ground" Frequency="121.9" Callsign="VVTS_GND" Name="TSG">
+  <Sector FullName="TSN Ground" Frequency="121.9" Callsign="VVTS_GND" Name="TSG">
     <Volumes>TST</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Ground" Frequency="121.6" Callsign="VVTS_2_GND" Name="TSG2">
+  <Sector FullName="TSN Ground" Frequency="121.6" Callsign="VVTS_2_GND" Name="TSG2">
     <Volumes>TST</Volumes>
   </Sector>
-  <Sector FullName="Tan Son Nhat Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TSD">
+  <Sector FullName="TSN Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TSD">
     <Volumes>TST</Volumes>
   </Sector>
 </Sectors>

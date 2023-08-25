@@ -355,7 +355,7 @@
       <Point>RUNSI</Point>
       <Point>TS488</Point>
     </Label>
-    <Label HasLeader="bool" LabelOrientation="NW">
+    <Label HasLeader="bool" LabelOrientation="NW" Alignment="Right">
       <Point>TS452</Point>
       <Point>TS434</Point>
       <Point>TS438</Point>

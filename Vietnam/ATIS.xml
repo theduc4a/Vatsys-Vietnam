@@ -41,6 +41,7 @@
     <Frequency Airport="YSSY" Frequency="126.25" />
     <Frequency Airport="YSTW" Frequency="123.8" />
     <Frequency Airport="YWLM" Frequency="134.45" />
+    <Frequency Airport="VVTS" Frequency="128.0" />
   </Frequencies>
   <Translations>
     <Translation String="AYGA" Spoken="Goroka" />
@@ -97,6 +98,7 @@
     <Translation String="YSSY" Spoken="Sydney" />
     <Translation String="YSTW" Spoken="Tamworth" />
     <Translation String="YWLM" Spoken="Willy" />
+    <Translation String="VVTS" Spoken="Tan Son Nyaat" />
 	
 	<Translation String="YMMM" Spoken="Melbourne" />
 	<Translation String="YBBB" Spoken="Brisbane" />

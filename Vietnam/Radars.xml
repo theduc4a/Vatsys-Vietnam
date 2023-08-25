@@ -1,11 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Radars>
-  <Radar Name="SGN1" Type="PRI" Elevation="100" Maxrange="80">
-    <Lat>+10.826389</Lat>
-    <Long>+106.658333</Long>
-  </Radar>
-  <Radar Name="SGN2" Type="SSR_ModeC" Elevation="100" MaxRange="250">
+  <!--Primary-->
+  <Radar Name="SGN1" Type="SSR_ModeC" Elevation="100" MaxRange="255">
     <Lat>+10.828056</Lat>
     <Long>+106.658333</Long>
   </Radar>
+  <Radar Name="SGN1-1" Type="PRI" Elevation="100" MaxRange="45">
+    <Lat>+10.828056</Lat>
+    <Long>+106.658333</Long>
+  </Radar>
+  <Radar Name="HAN1" Type="PRI" Elevation="100" Maxrange="80">
+    <Lat>+21.255556</Lat>
+    <Long>+105.801945</Long>
+  </Radar>
+  <Radar Name="Son Tra1" Type="PRI" Elevation="100" Maxrange="80">
+    <Lat>+16.133333</Lat>
+    <Long>+108.244722</Long>
+  </Radar>
+  <!--SSR-->
+  <Radar Name="SGN2" Type="PRI" Elevation="120" Maxrange="40">
+    <Lat>+10.826389</Lat>
+    <Long>+106.658333</Long>
+  </Radar>
+  <Radar Name="HAN2" Type="SSR_ModeC" Elevation="100" MaxRange="255">
+    <Lat>+21.255556</Lat>
+    <Long>+105.801945</Long>
+  </Radar>
+  <Radar Name="Ca Mau" Type="SSR_ModeC" Elevation="100" MaxRange="255">
+    <Lat>+09.181111</Lat>
+    <Long>+105.167778</Long>
+  </Radar>
+  <Radar Name="KOS" Type="SSR_ModeC" Elevation="100" MaxRange="255">
+    <Lat>+10.583500</Lat>
+    <Long>+103.641889</Long>
+  </Radar>
+  <Radar Name="PNH" Type="SSR_ModeC" Elevation="100" MaxRange="255">
+    <Lat>+11.555222</Lat>
+    <Long>+104.845222</Long>
+  </Radar>
+  <Radar Name="Quy Nhong" Type="SSR_ModeC" Elevation="100" MaxRange="255">
+    <Lat>+13.743056</Lat>
+    <Long>+109.195278</Long>
+  </Radar>
+  <Radar Name="SRE" Type="SSR_ModeC" Elevation="100" MaxRange="255">
+    <Lat>+13.410528</Lat>
+    <Long>+103.817250</Long>
+  </Radar>
+  <Radar Name="VINH" Type="SSR_ModeC" Elevation="100" MaxRange="255">
+    <Lat>+18.731667</Lat>
+    <Long>+105.668333</Long>
+  </Radar>
+  <!--MSSR?-->
+  <Radar Name="Son Tra2" Type="SSR_ModeS" Elevation="100" MaxRange="255">
+    <Lat>+16.133333</Lat>
+    <Long>+108.244722</Long>
+  </Radar>
+  <Radar Name="Pakse" Type="SSR_ModeS" Elevation="100" MaxRange="255">
+    <Lat>+15.135328</Lat>
+    <Long>+105.779225</Long>
+  </Radar>
+  <Radar Name="Vientiane" Type="SSR_ModeS" Elevation="100" MaxRange="255">
+    <Lat>+17.977831</Lat>
+    <Long>+102.567501</Long>
+  </Radar>
+  <Radar Name="Xienng Khaung" Type="SSR_ModeS" Elevation="100" MaxRange="255">
+    <Lat>+19.448056</Lat>
+    <Long>+103.156944</Long>
+  </Radar>
+  <!-- ADSB-->
+  <Radar Name="Cam Ranh" Type="ADSB" Elevation="106" MaxRange="250">
+    <Lat>+12.003889</Lat>
+    <Long>+109.214722</Long>
+  </Radar>
+  <Radar Name="SGN_G" Type="SMR_ADSB" Elevation="500" Maxrange="5">
+    <Lat>+10.826389</Lat>
+    <Long>+106.658333</Long>
+  </Radar>
+  <Radar Name="Cat BI" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+20.821389</Lat>
+    <Long>+106.723056</Long>
+  </Radar>
+  <Radar Name="Con Son" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+08.667222</Lat>
+    <Long>+106.579445</Long>
+  </Radar>
+  <Radar Name="Da Nang" Type="ADSB" Elevation="126" MaxRange="250">
+    <Lat>+16.046111</Lat>
+    <Long>+108.202778</Long>
+  </Radar>
+  <Radar Name="Dien Bien" Type="ADSB" Elevation="684" MaxRange="250">
+    <Lat>+21.399445</Lat>
+    <Long>+103.006945</Long>
+  </Radar>
+  <Radar Name="Dong Hoi" Type="ADSB" Elevation="210" MaxRange="250">
+    <Lat>+17.511667</Lat>
+    <Long>+106.591389</Long>
+  </Radar>
+  <Radar Name="Moc Chau" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+20.833889</Lat>
+    <Long>+104.684445</Long>
+  </Radar>
+  <Radar Name="Noi Bai" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+21.213056</Lat>
+    <Long>+105.835000</Long>
+  </Radar>
+  <Radar Name="PNH" Type="ADSB" Elevation="170" MaxRange="250">
+    <Lat>+11.555222</Lat>
+    <Long>+104.845222</Long>
+  </Radar>
+  <Radar Name="Song Tu Tay" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+11.428333</Lat>
+    <Long>+114.331111</Long>
+  </Radar>
+  <Radar Name="SRE" Type="ADSB" Elevation="190" MaxRange="250">
+    <Lat>+13.410528</Lat>
+    <Long>+103.817250</Long>
+  </Radar>
+  <Radar Name="Tho Xuan" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+19.884722</Lat>
+    <Long>+105.492778</Long>
+  </Radar>
+  <Radar Name="THX" Type="ADSB" Elevation="1356" MaxRange="250">
+    <Lat>+13.526361</Lat>
+    <Long>+105.969639</Long>
+  </Radar>
+  <Radar Name="Troung Sa Lon" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+08.646111</Lat>
+    <Long>+111.919167</Long>
+  </Radar>
+  <Radar Name="Vinh" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+18.730556</Lat>
+    <Long>+105.668889</Long>
+  </Radar>
+  <!-- Ground Radar-->
+
 </Radars>

@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
+  <Position Name="Ho Chi Minh Control" Type="ASD" DefaultCenter="+11.995833+108.451945" DefaultRange="2000" VisibilityRange="600">
+       <Sectors>
+        <Sector Name="HCM" />
+        <Sector Name="TSN" />
+       </Sectors>
+       <ManualVisibility>
+         <Point>+08.883333+105.083333</Point>
+         <Point>+10.150000+109.283333</Point>
+         <Point>+12.833333+113.316667</Point>
+         <Point>+14.300000+108.183333</Point>
+       </ManualVisibility>
+       <Maps>
+         <Map Name="FIR_BDRY" />
+         <Map Name="COAST_WORLD" />
+         <Map Name="ALL_CTA" />
+         <Map Name="ALL_ROUTES_HIGH" />
+       </Maps>
+       <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+         <CFL QuickLevel="7000">
+       </CFL>
+       <ArrivalLists>
+         <Airport Name="VVTS" />
+         <Airport Name="VVDN" />
+       </ArrivalLists>
+      <ControllerInfo>
+        <Line>Ho Chi Minh Control</Line>
+        <Line>Covering all airports in Ho Chi Minh FIR</Line>
+        <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+        <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+      </ControllerInfo>
+    </Position>
   <Position Name="Tan Son Nhat Terminal" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="250" VisibilityRange="150" MagneticVariation="-0.639">
        <Sectors>
-        <Sector Name="TSTE" />
+        <Sector Name="TSN" />
         <Sector Name="TSA" />
        </Sectors>
        <ManualVisibility>
@@ -82,6 +117,14 @@
         <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
         <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
       </ControllerInfo>
+  </Position>
+  <Position Name="VVTS" Type="ASMGCS" ASMGCSAirport="VVTS" DefaultCenter="+10.816667+106.653333" DefaultRange="2" MagneticVariation="-8" Rotation="330">
+    <Maps>
+      <Map Name="Tan Son Nhat/ASMGCS_VVTS_RWY" />
+      <Map Name="Tan Son Nhat/ASMGCS_VVTS_TWY" />
+      <Map Name="Tan Son Nhat/ASMGCS_VVTS_APR" />
+      <Map Name="Tan Son Nhat/ASMGCS_VVTS_BLD" />
+    </Maps>
   </Position>
 </Positions>
  
