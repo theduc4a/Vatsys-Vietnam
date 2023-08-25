@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Sectors>
+  <Sector FullName="VDPF_2_CTR" Frequency="126.200" Callsign="VDPF_CTR" Name="1677" />
+  <Sector FullName="VLVT_CTR" Frequency="128.300" Callsign="CTR_0200" Name="N019.22.06.521" />
+  <Sector FullName="DNA_APP" Frequency="125.300" Callsign="APP_5600" Name="N016.39.59.889" />
+  <Sector FullName="VCL_CTR" Frequency="129.425" Callsign="CTR_3301" Name="N009.40.36.750" />
+  <Sector FullName="VVHM_1_CTR" Frequency="134.050" Callsign="VVHM_CTR" Name="5677" />
+  <Sector FullName="VVHM_2_CTR" Frequency="120.100" Callsign="VVHM_CTR" Name="5677" />
+  <Sector FullName="VVHM_3_CTR" Frequency="120.900" Callsign="VVHM_CTR" Name="5677" />
+  <Sector FullName="VVHM_4_CTR" Frequency="133.050" Callsign="VVHM_CTR" Name="5677" />
+  <Sector FullName="VVHM_5_CTR" Frequency="120.700" Callsign="VVHM_CTR" Name="5677" />
+  <Sector FullName="VVHM_6_CTR" Frequency="128.175" Callsign="VVHM_CTR" Name="5677" />
+  <Sector FullName="VVHM_A_CTR" Frequency="123.525" Callsign="VVHM_CTR" Name="5677" />
+  <Sector FullName="VVHM_B_CTR" Frequency="124.975" Callsign="VVHM_CTR" Name="5677" />
+  <Sector FullName="VVHM_CTR" Frequency="132.350" Callsign="CTR_5600" Name="N015.21.38.854" />
+  <Sector FullName="VVHN_1_CTR" Frequency="132.300" Callsign="VVHN_CTR" Name="1777" />
+  <Sector FullName="VVHN_2_CTR" Frequency="133.650" Callsign="VVHN_CTR" Name="1777" />
+  <Sector FullName="VVHN_3_CTR" Frequency="125.900" Callsign="VVHN_CTR" Name="1777" />
+  <Sector FullName="ASEA_2_FSS" Frequency="136.225" Callsign="ASEA_FSS" Name="3577" />
+  <Sector FullName="ASEA_FSS" Frequency="135.350" Callsign="FSS_3401" Name="N008.11.37.485" />
+  <Sector FullName="MNL_1_CTR" Frequency="127.500" Callsign="MNL_CTR" Name="1350" />
+  <Sector FullName="MNL_2_CTR" Frequency="124.900" Callsign="MNL_CTR" Name="1350" />
+  <Sector FullName="MNL_3_CTR" Frequency="120.500" Callsign="MNL_CTR" Name="1350" />
+  <Sector FullName="MNL_4_CTR" Frequency="118.900" Callsign="MNL_CTR" Name="1350" />
+  <Sector FullName="MNL_CTR" Frequency="119.300" Callsign="CTR_1301" Name="N016.43.42.100" />
+  <Sector FullName="WMFC_1_CTR" Frequency="120.575" Callsign="WMFC_CTR" Name="5477" />
+  <Sector FullName="WMFC_2_CTR" Frequency="125.325" Callsign="WMFC_CTR" Name="5477" />
+  <Sector FullName="WMFC_3_CTR" Frequency="132.600" Callsign="WMFC_CTR" Name="5477" />
+  <Sector FullName="WMFC_4_CTR" Frequency="134.300" Callsign="WMFC_CTR" Name="5477" />
+  <Sector FullName="WMFC_CTR" Frequency="132.800" Callsign="CTR_5400" Name="N007.05.37.368" />
+  <Sector FullName="WMFC_E_CTR" Frequency="129.750" Callsign="WMFC_CTR" Name="5477" />
+  <Sector FullName="WMFC_N_CTR" Frequency="124.525" Callsign="WMFC_CTR" Name="5477" />
+</Sectors>

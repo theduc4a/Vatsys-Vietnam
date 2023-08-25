@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="TS_RWY25PROPS" Priority="1" Center="+10.816300+106.661900">
+    <!--YSSY-->
+    <Runway Name="07R/25L">
+      <Threshold Name="07R" Position="+10.813833+106.643333" />
+      <Threshold Name="25L" Position="+10.823667+106.669500" />
+    </Runway>
+    <Runway Name="07L/25R">
+      <Threshold Name="07L" Position="+10.815000+106.637167" />
+      <Threshold Name="25R" Position="+10.824833+106.663167" ExtendedCentrelineTrack="68.98" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="25R" Priority="1" Center="+10.816300+106.661900">
+    <Line Name="Runway">
+      +10.815000+106.637167/
+      +10.824833+106.663167
+    </Line>
+  </Map>
+  <Map Type="System2" Name="TS_RWY25PMS" Priority="1" Center="+10.816300+106.661900">
+    <Line Name="PMS Ring 1" Pattern="Broken">
+    +10.787778+106.921111/
+    +10.799167+106.950556/
+    +10.818333+106.975833/
+    +10.842222+106.987222/
+    +10.869167+106.990556
+    </Line>
+    <Line Name="PMS Ring 2" Pattern="Broken">
+    +10.706389+106.936945/
+    +10.727500+106.995556/
+    +10.767778+107.042778/
+    +10.815000+107.068889/
+    +10.868333+107.074167
+    </Line>
+    <Line Name="PMS Ring 3" Pattern="Broken">
+    +10.623889+106.953611/
+    +10.655556+107.040833/
+    +10.716111+107.112500/
+    +10.787222+107.151667/
+    +10.867222+107.160000
+    </Line>
+    <Line Pattern="Broken" Length="2"> 
+    SOKAN/ 
+    TS426/ 
+    TS422/ 
+    +10.824833+106.663167
+    </Line>
+    <Line Pattern="Broken" Length="2">  
+    +10.908333+106.884722/
+    TS426 
+    </Line>
+    <Line>
+    <!--XXXX2H ARC--> 
+    TS498/ 
+    TS496/ 
+    NOKUM/ 
+    TS492/ 
+    LETRO/ 
+    VANLI/ 
+    TS488/ 
+    RUNSI/ 
+    TS458/ 
+    TS456/ 
+    TS454/ 
+    SOKAN
+    </Line>
+    <Line>
+    <!--SAPEN2H-->
+    SAPEN/ 
+    TS498
+    </Line>
+    <Line>
+    <!--BITIS2H-->
+    TRN/
+    BITIS/ 
+    NOKUM
+    </Line>
+    <Line>
+    <!--VICA2H-->
+    NIXIV/
+    VICAL/ 
+    LETRO
+    </Line>
+    <Line>
+    <!--ELSASH-->
+    ELSAS/
+    GOMIN/ 
+    RUNSI
+    </Line>
+    <Line>
+    <!--DALA2H ARC--> 
+    DALAP/ 
+    VIKEP/ 
+    TS452/ 
+    TS438/ 
+    TS436/ 
+    TS434/ 
+    TS432/ 
+    SOKAN
+    </Line>
+    <Line>
+    <!--DOVIN.DALA2H-->
+    DOVIN/ 
+    DALAP
+    </Line>
+    <Line>
+    <!--VETOM.DALA2H-->
+    VETOM/ 
+    DALAP
+    </Line>
+    <Line>
+    <!--RINKU.DALA2H-->
+    DOVIN/ 
+    TS918/ 
+    TS916/ 
+    TS914/ 
+    TS912/ 
+    RINKU/ 
+    PTH/ 
+    DALAP
+    </Line> 
+  </Map>
+  <Map Type="System" Name="TS_25TROMBONE" Priority="1" Center="+10.816300+106.661900">
+    <!--TST AND TSA SECTOR BOUNDARIES-->
+    <Line Name="TSA_CTA" Width="1.7" Pattern="Dotted">+112438.800+1065701.856/+111845.000+1064712.000/+105655.000+1065046.000/TSH VOR/+104256.000+1065035.000/+103056.000+1065455.000/+101900.000+1070546.000</Line>
+    
+    <!--TSA SECTOR LLS-->
+    <Line Name="TSA_CTA_125" Pattern="Dashed">TSH VOR/+105147.254+1064256.021</Line>
+    <Line Name="TSA_CTA_126" Pattern="Dashed">+105655.000+1065046.000/+105147.254+1064256.021</Line>
+    <Line Name="TSA_CTA_127" Pattern="Dashed">+105655.000+1065046.000/+105322.000+1065124.000/+104256.000+1065035.000</Line>
+    <Line Name="TSA_CTA_129" Pattern="Dashed">+104256.000+1065035.000/TSH VOR</Line>
+    <Line Name="TSA_CTA_131" Pattern="Dashed">+110422.000+1071618.000/+110021.000+1071009.000/+105309.000+1071212.000/+105343.000+1071906.000</Line>
+    <Line Name="TSA_CTA_133" Pattern="Dashed">+104256.000+1065035.000/+103056.000+1065455.000/+101900.000+1070546.000</Line>
+    <Line Name="TSA_CTA_134" Pattern="Dashed">+112438.800+1065701.856/+111845.000+1064712.000/+105655.000+1065046.000</Line>
+
+    <Symbol Type="Circle">
+      <Point>AC NDB</Point>
+      <Point>SG NDB</Point>
+      <Point>PTH</Point>
+    </Symbol>
+  </Map>
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+    </Label>
+    <Map Type="System" Name="TS_RWY25SID" Priority="1" Center="+10.816300+106.661900">
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ANTRI2D-->
+    +10.818333+106.651389/
+    TS616/
+    TS626/
+    TS628/
+    TS632/
+    TS814/
+    TS816/
+    ANTRI
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ANTRI2X.DILIN-->
+    ANTRI/ 
+    DILIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ANTRI2X.DOVIN-->
+    ANTRI/ 
+    DOVIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ANTRI2X.PATMA-->
+    ANTRI/ 
+    PATMA
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ANTRI2X.PTH-->
+    ANTRI/ 
+    PTH
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--BACH2D-->
+    +10.818333+106.651389/
+    TS616/
+    TS618/ 
+    BACHU
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ENPA2D-->
+    TS618/ 
+    ENPAS
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--ENPA2D.ANOHA-->
+    ENPAS/ 
+    ANHOA
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D-->
+    TS616/
+    TS636/ 
+    TS638/
+    KADUM
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D.DILIN-->
+    KADUM/ 
+    DILIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D.DOVIN-->
+    KADUM/ 
+    DOVIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D.PATMA-->
+    KADUM/ 
+    PATMA
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KADUM2D.PTH-->
+    KADUM/ 
+    PTH
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--LANH2D--> 
+    TS632/ 
+    LANHI
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--LANH2D.ELSAS-->
+    LANHI/ 
+    ELSAS
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--MISA2D-->
+    TS618/ 
+    MISAN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--MISA2D.TRN-->
+    MISAN/ 
+    TRN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--SAPE2D-->
+    TS616/
+    SAPEN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--TANO2D-->
+    TS632/ 
+    TANOS 
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--TANO2D.DILIN-->
+    TANOS/ 
+    DILIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--TANO2D.DOVIN-->
+    TANOS/ 
+    DOVIN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--TANO2D.NIXIV-->
+    TANOS/ 
+    PTH
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--XOBA2D-->
+    TS616/
+    TS641/ 
+    TS642/ 
+    TS644/ 
+    XOBAV
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--XOBA2D.NIXIV-->
+    XOBAV/ 
+    NIXIV
+    </Line>
+     <Symbol Type="HollowTriangle">
+      <Point>KADUM</Point>
+      <Point>DOVIN</Point>
+      <Point>DILIN</Point>
+      <Point>PATMA</Point>
+      <Point>NIXIV</Point>
+      </Symbol>
+  </Map>
+  <Map Type="System2" Name="25PMS_WPT" Priority="2" Center="+10.816300+106.661900">
+  <Symbol Type="Circle">
+      <Point>PTH</Point>
+      <Point>TRN</Point>
+    </Symbol>
+  <Symbol Type="SolidTriangle">
+      <Point>DOVIN</Point>
+      <Point>VETOM</Point>
+      <Point>ELSAS</Point>
+      <Point>NIXIV</Point>
+      <Point>RINKU</Point>
+      <Point>BITIS</Point>
+      <Point>SAPEN</Point>
+      <Point>NOKUM</Point>
+      <Point>LETRO</Point>
+      <Point>VANLI</Point>
+      <Point>DALAP</Point>
+      <Point>VIKEP</Point>
+    </Symbol>  
+    <Symbol Type="HollowStar">
+    <Point>VICAL</Point>
+    <Point>GOMIN</Point>
+    <Point>RUNSI</Point>
+    <Point>TS918</Point>
+    <Point>TS916</Point>
+    <Point>TS914</Point>
+    <Point>TS912</Point>
+    <Point>TS498</Point>
+    <Point>TS496</Point>
+    <Point>TS492</Point>
+    <Point>TS488</Point>
+    <Point>TS458</Point>
+    <Point>TS456</Point>
+    <Point>TS454</Point>
+    <Point>TS452</Point>
+    <Point>TS438</Point>
+    <Point>TS436</Point>
+    <Point>TS434</Point>
+    <Point>TS432</Point>
+    </Symbol> 
+    </Map>
+  <Map Type="System2" Name="25PMS_NAMES" Priority="2" Center="+10.816300+106.661900">
+    <Label>
+      <Point>DOVIN</Point>
+      <Point>VETOM</Point>
+      <Point>ELSAS</Point>
+      <Point>NIXIV</Point>
+      <Point>RINKU</Point>
+      <Point>DOVIN</Point>
+      <Point>VETOM</Point>
+      <Point>ELSAS</Point>
+      <Point>NIXIV</Point>
+      <Point>RINKU</Point>
+      <Point>SAPEN</Point>
+      <Point>SOKAN</Point>
+      <Point>VICAL</Point>
+      <Point>GOMIN</Point>
+      <Point>NOKUM</Point>
+      <Point>LETRO</Point>
+      <Point>TS918</Point>
+      <Point>TS916</Point>
+      <Point>TS914</Point>
+      <Point>TS912</Point>
+      <Point>TS496</Point>
+      <Point>TS492</Point>
+      <Point>TS456</Point>
+      <Point>TS454</Point>
+      <Point>TRN</Point>
+      <Point>PTH</Point>
+    </Label>
+    <Label HasLeader="bool" LabelOrientation="S">
+      <Point>TS416</Point>
+      <Point>VANLI</Point>
+    </Label>
+    <Label HasLeader="bool" LabelOrientation="S" Alignment="Center">
+      <Point>TS498</Point>
+    </Label>
+    <Label HasLeader="bool" LabelOrientation="E">
+      <Point>TS458</Point>
+      <Point>BITIS</Point>
+      <Point>RUNSI</Point>
+      <Point>TS488</Point>
+    </Label>
+    <Label HasLeader="bool" LabelOrientation="NW" Alignment="Right">
+      <Point>TS452</Point>
+      <Point>TS434</Point>
+      <Point>TS438</Point>
+      <Point>TS436</Point>
+      <Point>VIKEP</Point>
+      <Point>DALAP</Point>
+    </Label>
+    <Label HasLeader="bool" LabelOrientation="N">
+      <Point>TS432</Point>
+    </Label>
+  </Map>
+</Maps>

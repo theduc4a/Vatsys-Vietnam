@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SystemRunways>    
+      <Airport Name="VVTS">
+        <Runway Name="25L" DataRunway="25L">
+        <STAR Name="[A-Z]{4}\dH" ApproachName="ILSW" />
+        <STAR Name="[A-Z]{4}\dJ" ApproachName="ILSW" />
+        <SID Name="[A-Z]{4}\dD" />
+        </Runway>
+        <Runway Name="25R" DataRunway="25R">
+        <STAR Name="[A-Z]{4}\dH" ApproachName="ILSW" />
+        <STAR Name="[A-Z]{4}\dJ" ApproachName="ILSW" />
+        <SID Name="[A-Z]{4}\dD" />
+        </Runway>
+        <Runway Name="07L" DataRunway="07L">
+        <STAR Name="[A-Z]{4}\dG" ApproachName="RNPY" />
+        <SID Name="[A-Z]{4}\dD" />
+        </Runway>
+        <Runway Name="07R" DataRunway="07R">
+        <STAR Name="[A-Z]{4}\dG" ApproachName="ILSY" />
+        <SID Name="[A-Z]{4}\dD" />
+        </Runway>
+      </Airport>
+  </SystemRunways>
+</Airspace>
