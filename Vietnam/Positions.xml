@@ -15,7 +15,8 @@
          <Map Name="FIR_BDRY" />
          <Map Name="COAST_WORLD" />
          <Map Name="ALL_CTA" />
-         <Map Name="ALL_ROUTES_HIGH" />
+         <Map Name="ALL_ROUTES" />
+         <Map Name="ALL_SECTORS" />
        </Maps>
        <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
