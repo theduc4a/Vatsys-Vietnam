@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Profile Name="Vietnam (VVMH)" FullName="Eurocat Ho Chi Minh">
-	<Version AIRAC="2000" Revision="" PublishDate="20230825" />
+<Profile Name="Vietnam (VVMH)" FullName="Eurocat Vietnam (VVHM)">
+	<Version AIRAC="2308" Revision="" PublishDate="20230825" />
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="https://sawbe.com/GRIB/" />

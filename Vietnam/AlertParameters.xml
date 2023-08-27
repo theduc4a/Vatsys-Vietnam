@@ -13,13 +13,13 @@
       <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>HCM,TSN_CAP</Volumes>
+      <Volumes>HCM,TSN_CAP,HC1,HC2,HC5</Volumes>
     </STCA>
     <MTCA Name="ENR" LateralNM="5.0" SecondsLookahead="300" AlertPriority="3">
       <Vertical LowerLevel="18000" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
-      <Volumes>HCM,TSN_CAP</Volumes>
+      <Volumes>HCM,TSN_CAP,HC1,HC2,HC5</Volumes>
     </MTCA>
   </ConflictAlerts>
   <EMG SSRCode="7700" AlertPriority="2"/>

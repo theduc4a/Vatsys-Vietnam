@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="HCM ACC" Frequency="132.350" Callsign="VVHM_CTR" Name="HCM">
-    <Volumes>HCM,TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QL</Volumes>
-    <ResponsibleSectors>TSA,HC1,HC2,HC3HC4,HC5,HC6</ResponsibleSectors>
+    <Volumes>TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QL,HC1,HC2,HC3,HC4,HC5,HN4</Volumes>
+    <ResponsibleSectors>TSA,HC1,HC2,HC3,HC4,HC5,HN4</ResponsibleSectors>
   </Sector>
   <Sector FullName="Mekong Radar" Frequency="129.425" Callsign="VCL_CTR" Name="VCL">
-    <Volumes>HCM,TSN,TSN_CAP</Volumes>
-    <ResponsibleSectors>HCM</ResponsibleSectors>
+    <Volumes>TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QL,HC1,HC2,HC3,HC4,HC5,HN4</Volumes>
+    <ResponsibleSectors>HCM,TSA,HC1,HC2,HC3,HC4,HC5,HN4</ResponsibleSectors>
   </Sector>
   <Sector FullName="HCM North" Frequency="123.525" Callsign="VVHM_A_CTR" Name="HCN">
-    <Volumes>TSN,TSN_CAP</Volumes>
-    <ResponsibleSectors>TSN</ResponsibleSectors>
+    <Volumes>TSN,TSN_CAP,HC1,HC2,HC5,LKH,CRA</Volumes>
+    <ResponsibleSectors>TSN,HC1,HC2,HC5</ResponsibleSectors>
   </Sector>
   <Sector FullName="HCM South" Frequency="124.975" Callsign="VVHM_B_CTR" Name="HCS">
-    <Volumes>TSN,TSN_CAP</Volumes>
-    <ResponsibleSectors>TSN</ResponsibleSectors>
+    <Volumes>HC3,HC4</Volumes>
+    <ResponsibleSectors>HC3,HC4</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 1" Frequency="134.050" Callsign="VVHM_1_CTR" Name="HC1">
-    <Volumes>TSN,TSN_CAP</Volumes>
-    <ResponsibleSectors>TSN</ResponsibleSectors>
+    <Volumes>HC1,CRA</Volumes>
+    <ResponsibleSectors>HC1</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 2" Frequency="120.1" Callsign="VVHM_2_CTR" Name="HC2">
-    <Volumes>TSN,TSN_CAP</Volumes>
+    <Volumes>TSN,TSN_CAP,HC2,LKH</Volumes>
     <ResponsibleSectors>TSN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 3" Frequency="120.9" Callsign="VVHM_3_CTR" Name="HC3">
-    <Volumes>TSN,TSN_CAP</Volumes>
-    <ResponsibleSectors>TSN</ResponsibleSectors>
+    <Volumes>HC3</Volumes>
+    <ResponsibleSectors>HC3</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 4" Frequency="133.050" Callsign="VVHM_4_CTR" Name="HC4">
-    <Volumes>TSN,TSN_CAP</Volumes>
-    <ResponsibleSectors>TSN</ResponsibleSectors>
+    <Volumes>HC4,CSN</Volumes>
+    <ResponsibleSectors>HC4</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 5" Frequency="120.7" Callsign="VVHM_5_CTR" Name="HC5">
-    <Volumes>TSN,TSN_CAP</Volumes>
-    <ResponsibleSectors>TSN</ResponsibleSectors>
+    <Volumes>HC5</Volumes>
+    <ResponsibleSectors>HC5</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Sector 6" Frequency="128.175" Callsign="VVHM_6_CTR" Name="HC6">
-    <Volumes>TSN,TSN_CAP</Volumes>
-    <ResponsibleSectors>TSN</ResponsibleSectors>
+  <Sector FullName="Sector 4 (VVHN)" Frequency="123.35" Callsign="VVHN_4_CTR" Name="HN4">
+    <Volumes>HN4</Volumes>
+    <ResponsibleSectors>HN4</ResponsibleSectors>
   </Sector>
   <Sector FullName="Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TSN">
     <Volumes>TSN</Volumes>

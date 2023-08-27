@@ -29,11 +29,6 @@
         <STAR Name="[A-Z]{4}\dE" ApproachName="VORW" />
         <SID Name="[A-Z]{4}\dA" />
         </Runway>
-        <Runway Name="35R" DataRunway="35R">
-        <STAR Name="[A-Z]{4}\dK" ApproachName="ILSV" />
-        <STAR Name="[A-Z]{4}\dL" ApproachName="ILSV" />
-        <SID Name="[A-Z]{4}\dG" />
-        </Runway>
         <Runway Name="17R" DataRunway="17R">
           <STAR Name="[A-Z]{4}\dD" ApproachName="VORW" />
           <STAR Name="[A-Z]{4}\dE" ApproachName="VORW" />
@@ -42,7 +37,41 @@
       <Runway Name="35L" DataRunway="35L">
         <STAR Name="[A-Z]{4}\dK" ApproachName="ILSV" />
         <STAR Name="[A-Z]{4}\dL" ApproachName="ILSV" />
+        <STAR Name="[A-Z]{4}\dN" ApproachName="ILSV" />
         <SID Name="[A-Z]{4}\dG" />
+        </Runway>
+        <Runway Name="35R" DataRunway="35R">
+        <STAR Name="[A-Z]{4}\dK" ApproachName="ILSV" />
+        <STAR Name="[A-Z]{4}\dL" ApproachName="ILSV" />
+        <STAR Name="[A-Z]{4}\dN" ApproachName="ILSV" />
+        <SID Name="[A-Z]{4}\dG" />
+        </Runway>
+      </Airport>
+      <Airport Name="VVCA">
+        <Runway Name="14" DataRunway="14">
+        <STAR Name="[A-Z]{4}\dQ" ApproachName="RNPZ" />
+        <STAR Name="[A-Z]{4}\dF" ApproachName="RNPZ" />
+        <SID Name="[A-Z]{4}\dD" />
+        </Runway>
+        <Runway Name="32" DataRunway="32">
+        <STAR Name="[A-Z]{4}\dG" ApproachName="ILSX" />
+        <STAR Name="[A-Z]{4}\dR" ApproachName="ILSX" />
+        <SID Name="[A-Z]{4}\dE" />
+        </Runway>
+      </Airport>
+      <Airport Name="VVCS">
+        <Runway Name="11" DataRunway="11">
+        <STAR Name="[A-Z]{4}\dF" ApproachName="RNPZ" />
+        <STAR Name="[A-Z]{4}\dC" ApproachName="RNPZ" />
+        <SID Name="[A-Z]{4}\dA" />
+        <SID Name="[A-Z]{4}\dD" />
+        <SID Name="[A-Z]{4}\dJ" />
+        <SID Name="[A-Z]{4}\dN" />
+        </Runway>
+        <Runway Name="29" DataRunway="29">
+        <STAR Name="[A-Z]{4}\dG" ApproachName="RNPZ" />
+        <STAR Name="[A-Z]{4}\dC" ApproachName="RNPZ" />
+        <SID Name="[A-Z]{4}\dE" />
         </Runway>
       </Airport>
   </SystemRunways>

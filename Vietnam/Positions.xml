@@ -4,6 +4,12 @@
        <Sectors>
         <Sector Name="HCM" />
         <Sector Name="TSN" />
+        <Sector Name="HC1" />
+        <Sector Name="HC2" />
+        <Sector Name="HC3" />
+        <Sector Name="HC4" />
+        <Sector Name="HC5" />
+        <Sector Name="HN4" />
        </Sectors>
        <ManualVisibility>
          <Point>+08.883333+105.083333</Point>
@@ -23,7 +29,7 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
-         <CFL QuickLevel="7000">
+         <CFL QuickLevel="11000">
        </CFL>
        <ArrivalLists>
          <Airport Name="VVTS" />
@@ -36,6 +42,285 @@
         <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
       </ControllerInfo>
     </Position>
+    <Group Name="Ho Chi Minh Sectors">
+      <Position Name="HCM North (VVHM_A_CTR)" Type="ASD" DefaultCenter="+12.740556+110.613889" DefaultRange="2000" VisibilityRange="600">
+           <Sectors>
+            <Sector Name="HCN" />
+            <Sector Name="HC1" />
+            <Sector Name="HC2" />
+            <Sector Name="HC5" />
+            <Sector Name="TSN" />
+           </Sectors>
+           <ManualVisibility>
+             <Point>+08.883333+105.083333</Point>
+             <Point>+10.150000+109.283333</Point>
+             <Point>+12.833333+113.316667</Point>
+             <Point>+14.300000+108.183333</Point>
+           </ManualVisibility>
+           <Maps>
+            <Map Name="FIR_BDRY" />
+            <Map Name="COAST_WORLD" />
+            <Map Name="ALL_CTA" />
+            <Map Name="ALL_ROUTES" />
+            <Map Name="ALL_SECTORS" />
+            <Map Name="Tan Son Nhat/TS_RWY25PMS" />
+            <Map Name="Tan Son Nhat/25R" />
+            <Map Name="Tan Son Nhat/25PMS_NAMES" />
+            <Map Name="Tan Son Nhat/25PMS_WPT" />
+           </Maps>
+           <Strips Mode="State" Sort="Time">
+            <Window Type="State" State="Jurisdiction" Visible="true" />
+            <Window Type="State" State="Announced" Visible="true" />
+            <Window Type="State" State="Preactive" Visible="true" />
+          </Strips>
+             <CFL QuickLevel="11000">
+           </CFL>
+           <ArrivalLists>
+             <Airport Name="VVDN" />
+             <Airport Name="VVCR" />
+             <Airport Name="VVTS" />
+           </ArrivalLists>
+          <ControllerInfo>
+            <Line>Ho Chi Minh Control</Line>
+            <Line>Covering PB, DN, CA, PK, PC, TH, CR, BM, DL, TS and Oceanic.</Line>
+            <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+            <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+          </ControllerInfo>
+        </Position>
+      <Position Name="HCM South (VVHM_B_CTR)" Type="ASD" DefaultCenter="+09.150278+106.321667" DefaultRange="2000" VisibilityRange="600">
+           <Sectors>
+            <Sector Name="HCS" />
+            <Sector Name="HC3" />
+            <Sector Name="HC4" />
+           </Sectors>
+           <ManualVisibility>
+             <Point>+08.883333+105.083333</Point>
+             <Point>+10.150000+109.283333</Point>
+             <Point>+12.833333+113.316667</Point>
+             <Point>+14.300000+108.183333</Point>
+           </ManualVisibility>
+           <Maps>
+            <Map Name="FIR_BDRY" />
+            <Map Name="COAST_WORLD" />
+            <Map Name="ALL_CTA" />
+            <Map Name="ALL_ROUTES" />
+            <Map Name="ALL_SECTORS" />
+           </Maps>
+           <Strips Mode="State" Sort="Time">
+            <Window Type="State" State="Jurisdiction" Visible="true" />
+            <Window Type="State" State="Announced" Visible="true" />
+            <Window Type="State" State="Preactive" Visible="true" />
+          </Strips>
+             <CFL QuickLevel="15000">
+           </CFL>
+           <ArrivalLists>
+             <Airport Name="VVTS" />
+           </ArrivalLists>
+          <ControllerInfo>
+            <Line>Ho Chi Minh Control</Line>
+            <Line>Covering CT, CM, RG, PQ, CS and Oceanic.</Line>
+            <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+            <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+          </ControllerInfo>
+        </Position>
+      <Position Name="Sector 1" Type="ASD" DefaultCenter="+13.951945+109.036667" DefaultRange="2000" VisibilityRange="600">
+           <Sectors>
+            <Sector Name="HC1" />
+           </Sectors>
+           <ManualVisibility>
+             <Point>+08.883333+105.083333</Point>
+             <Point>+10.150000+109.283333</Point>
+             <Point>+12.833333+113.316667</Point>
+             <Point>+14.300000+108.183333</Point>
+           </ManualVisibility>
+           <Maps>
+             <Map Name="FIR_BDRY" />
+             <Map Name="COAST" />
+             <Map Name="ALL_CTA" />
+             <Map Name="ALL_ROUTES" />
+             <Map Name="ALL_SECTORS" />
+           </Maps>
+           <Strips Mode="State" Sort="Time">
+            <Window Type="State" State="Jurisdiction" Visible="true" />
+            <Window Type="State" State="Announced" Visible="true" />
+            <Window Type="State" State="Preactive" Visible="true" />
+          </Strips>
+             <CFL QuickLevel="10000">
+           </CFL>
+           <ArrivalLists>
+             <Airport Name="VVDN" />
+             <Airport Name="VVCR" />
+           </ArrivalLists>
+          <ControllerInfo>
+            <Line>Ho Chi Minh Control</Line>
+            <Line>Covering PB, DN, CA, PK, PC, TH, CR.</Line>
+            <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+            <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+          </ControllerInfo>
+        </Position>
+      <Position Name="Sector 2" Type="ASD" DefaultCenter="+11.878889+107.870000" DefaultRange="2000" VisibilityRange="600">
+           <Sectors>
+            <Sector Name="HC2" />
+            <Sector Name="TSN" />
+            <Sector Name="LKH" />
+           </Sectors>
+           <ManualVisibility>
+             <Point>+08.883333+105.083333</Point>
+             <Point>+10.150000+109.283333</Point>
+             <Point>+12.833333+113.316667</Point>
+             <Point>+14.300000+108.183333</Point>
+           </ManualVisibility>
+           <Maps>
+             <Map Name="FIR_BDRY" />
+             <Map Name="COAST" />
+             <Map Name="ALL_CTA" />
+             <Map Name="ALL_ROUTES" />
+             <Map Name="ALL_SECTORS" />
+             <Map Name="Tan Son Nhat/TS_RWY25PMS" />
+              <Map Name="Tan Son Nhat/25R" />
+              <Map Name="Tan Son Nhat/25PMS_NAMES" />
+              <Map Name="Tan Son Nhat/25PMS_WPT" />
+           </Maps>
+           <Strips Mode="State" Sort="Time">
+            <Window Type="State" State="Jurisdiction" Visible="true" />
+            <Window Type="State" State="Announced" Visible="true" />
+            <Window Type="State" State="Preactive" Visible="true" />
+          </Strips>
+             <CFL QuickLevel="10000">
+           </CFL>
+           <ArrivalLists>
+             <Airport Name="VVTS" />
+           </ArrivalLists>
+          <ControllerInfo>
+            <Line>Ho Chi Minh Control</Line>
+            <Line>Covering BM, DL, TS.</Line>
+            <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+            <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+          </ControllerInfo>
+        </Position>
+      <Position Name="Sector 3" Type="ASD" DefaultCenter="+09.266945+104.793611" DefaultRange="2000" VisibilityRange="600">
+           <Sectors>
+            <Sector Name="HC3" />
+           </Sectors>
+           <ManualVisibility>
+             <Point>+08.883333+105.083333</Point>
+             <Point>+10.150000+109.283333</Point>
+             <Point>+12.833333+113.316667</Point>
+             <Point>+14.300000+108.183333</Point>
+           </ManualVisibility>
+           <Maps>
+             <Map Name="FIR_BDRY" />
+             <Map Name="COAST_WORLD" />
+             <Map Name="ALL_ROUTES" />
+             <Map Name="ALL_ROUTES_SYMBOL" />
+             <Map Name="ALL_ROUTES_NAME" />
+             <Map Name="ALL_SECTORS" />
+           </Maps>
+           <Strips Mode="State" Sort="Time">
+            <Window Type="State" State="Jurisdiction" Visible="true" />
+            <Window Type="State" State="Announced" Visible="true" />
+            <Window Type="State" State="Preactive" Visible="true" />
+          </Strips>
+            <CFL QuickLevel="15000">
+            </CFL>
+          <ControllerInfo>
+            <Line>Ho Chi Minh Control</Line>
+            <Line>Covering CT,CM,RG,PQ.</Line>
+            <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+            <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+          </ControllerInfo>
+        </Position>
+      <Position Name="Sector 4" Type="ASD" DefaultCenter="+08.720000+108.452500" DefaultRange="2000" VisibilityRange="600">
+           <Sectors>
+            <Sector Name="HC4" />
+           </Sectors>
+           <ManualVisibility>
+             <Point>+08.883333+105.083333</Point>
+             <Point>+10.150000+109.283333</Point>
+             <Point>+12.833333+113.316667</Point>
+             <Point>+14.300000+108.183333</Point>
+           </ManualVisibility>
+           <Maps>
+             <Map Name="FIR_BDRY" />
+             <Map Name="COAST_WORLD" />
+             <Map Name="ALL_ROUTES" />
+             <Map Name="ALL_ROUTES_SYMBOL" />
+             <Map Name="ALL_ROUTES_NAME" />
+             <Map Name="ALL_SECTORS" />
+           </Maps>
+           <Strips Mode="State" Sort="Time">
+            <Window Type="State" State="Jurisdiction" Visible="true" />
+            <Window Type="State" State="Announced" Visible="true" />
+            <Window Type="State" State="Preactive" Visible="true" />
+          </Strips>
+          <ControllerInfo>
+            <Line>Ho Chi Minh Control</Line>
+            <Line>Covering CS and Oceanic.</Line>
+            <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+            <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+          </ControllerInfo>
+        </Position>
+      <Position Name="Sector 5" Type="ASD" DefaultCenter="+12.293611+111.809445" DefaultRange="2000" VisibilityRange="600">
+           <Sectors>
+            <Sector Name="HC5" />
+           </Sectors>
+           <ManualVisibility>
+             <Point>+08.883333+105.083333</Point>
+             <Point>+10.150000+109.283333</Point>
+             <Point>+12.833333+113.316667</Point>
+             <Point>+14.300000+108.183333</Point>
+           </ManualVisibility>
+           <Maps>
+             <Map Name="FIR_BDRY" />
+             <Map Name="COAST_WORLD" />
+             <Map Name="ALL_ROUTES" />
+             <Map Name="ALL_ROUTES_SYMBOL" />
+             <Map Name="ALL_ROUTES_NAME" />
+             <Map Name="ALL_SECTORS" />
+           </Maps>
+           <Strips Mode="State" Sort="Time">
+            <Window Type="State" State="Jurisdiction" Visible="true" />
+            <Window Type="State" State="Announced" Visible="true" />
+            <Window Type="State" State="Preactive" Visible="true" />
+          </Strips>
+          <ControllerInfo>
+            <Line>Ho Chi Minh Control</Line>
+            <Line>Covering Oceanic.</Line>
+            <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+            <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+          </ControllerInfo>
+        </Position>
+      <Position Name="Sector 4 (VVHN)" Type="ASD" DefaultCenter="+16.058333+108.183056" DefaultRange="2000" VisibilityRange="600">
+           <Sectors>
+            <Sector Name="HN4" />
+           </Sectors>
+           <ManualVisibility>
+             <Point>+08.883333+105.083333</Point>
+             <Point>+10.150000+109.283333</Point>
+             <Point>+12.833333+113.316667</Point>
+             <Point>+14.300000+108.183333</Point>
+           </ManualVisibility>
+           <Maps>
+             <Map Name="FIR_BDRY" />
+             <Map Name="COAST_WORLD" />
+             <Map Name="ALL_ROUTES" />
+             <Map Name="ALL_ROUTES_SYMBOL" />
+             <Map Name="ALL_ROUTES_NAME" />
+             <Map Name="ALL_SECTORS" />
+           </Maps>
+           <Strips Mode="State" Sort="Time">
+            <Window Type="State" State="Jurisdiction" Visible="true" />
+            <Window Type="State" State="Announced" Visible="true" />
+            <Window Type="State" State="Preactive" Visible="true" />
+          </Strips>
+          <ControllerInfo>
+            <Line>Ha Noi Control</Line>
+            <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+            <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+          </ControllerInfo>
+        </Position>
+
+    </Group>
     <Group Name="Tan Son Nhat (VVTS)">
     <Position Name="Tan Son Nhat Terminal" Type="ASD" DefaultCenter="+10.816300+106.661900" DefaultRange="250" VisibilityRange="150" MagneticVariation="-0.639">
          <Sectors>
@@ -120,14 +405,14 @@
           <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
         </ControllerInfo>
     </Position>
-    <Position Name="VVTS" Type="ASMGCS" ASMGCSAirport="VVTS" DefaultCenter="+10.816667+106.653333" DefaultRange="2" MagneticVariation="-8" Rotation="330">
-      <Maps>
-        <Map Name="Tan Son Nhat/VVTS_RWYS" />
-        <Map Name="Tan Son Nhat/VVTS_APRS" />
-        <Map Name="Tan Son Nhat/VVTS_TWYS" />
-        <Map Name="Tan Son Nhat/VVTS_BLDS" />
-      </Maps>
-    </Position>
   </Group>
+  <Position Name="VVTS" Type="ASMGCS" ASMGCSAirport="VVTS" DefaultCenter="+10.816667+106.653333" DefaultRange="2" MagneticVariation="-8" Rotation="330">
+    <Maps>
+      <Map Name="Tan Son Nhat/VVTS_RWYS" />
+      <Map Name="Tan Son Nhat/VVTS_APRS" />
+      <Map Name="Tan Son Nhat/VVTS_TWYS" />
+      <Map Name="Tan Son Nhat/VVTS_BLDS" />
+    </Maps>
+  </Position>
 </Positions>
  
