@@ -50,6 +50,10 @@
     <Lat>+18.731667</Lat>
     <Long>+105.668333</Long>
   </Radar>
+  <Radar Name="HKE" Type="SSR_ModeC" Elevation="100" MaxRange="255">
+    <Lat>+18.731667</Lat>
+    <Long>+105.668333</Long>
+  </Radar>
   <!--MSSR?-->
   <Radar Name="Son Tra2" Type="SSR_ModeS" Elevation="100" MaxRange="255">
     <Lat>+16.133333</Lat>
@@ -128,10 +132,31 @@
     <Lat>+08.646111</Lat>
     <Long>+111.919167</Long>
   </Radar>
-  <Radar Name="Vinh" Type="ADSB" Elevation="100" MaxRange="250">
-    <Lat>+18.730556</Lat>
-    <Long>+105.668889</Long>
+  <Radar Name="Indoesia" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+01.132778</Lat>
+    <Long>+114.221111</Long>
   </Radar>
+  <Radar Name="Philipines" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+11.360000</Lat>
+    <Long>+122.517500</Long>
+  </Radar>
+  <Radar Name="Bangkok" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+13.904167</Lat>
+    <Long>+100.677500</Long>
+  </Radar>
+  <Radar Name="Malaysia" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+03.977500</Lat>
+    <Long>+102.255556</Long>
+  </Radar>
+  <Radar Name="Sanya" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+19.162778</Lat>
+    <Long>+109.576389</Long>
+  </Radar>
+  <Radar Name="Hong Kong" Type="ADSB" Elevation="100" MaxRange="250">
+    <Lat>+22.320556</Lat>
+    <Long>+113.915000</Long>
+  </Radar>
+  
   <!-- Ground Radar-->
 
 </Radars>
