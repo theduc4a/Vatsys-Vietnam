@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="35" Priority="1" Center="+16.052778+108.198195">
+    <Runway Name="35R/17L">
+      <Threshold Name="17L" Position="+16.060372+108.198000" />
+      <Threshold Name="35R" Position="+16.029047+108.202545" />
+    </Runway>
+    <Runway Name="35L/17R">
+      <Threshold Name="17R" Position="+16.057417+108.196411" />
+      <Threshold Name="35L" Position="+16.030133+108.200370" />
+    </Runway>
+  </Map>
+  <Map Type="System2" Name="DN_35PROPS" Priority="1" Center="+16.052778+108.198195">
+    <Line>
+    <!--HINTA TO IAF--> 
+    HINTA/
+    DN369/ 
+    TAWAN/ 
+    DOTEN/ 
+    TRACO/ 
+    CADAS/ 
+    MONRY/ 
+    TAMLA
+    </Line>
+    <Line>
+    <!--HUE2K-->
+    HUE/ 
+    HINTA
+    </Line>
+    <Line>
+    <!--CAHEO2K-->
+    CAHEO/ 
+    HINTA
+    </Line>
+    <Line>
+    <!--BUNTA-->
+    BUNTA/ 
+    KANGU/ 
+    HINTA
+    </Line>
+    <Line>
+    <!--PAPRA2K-->
+    PAPRA/ 
+    MANGA/ 
+    VIDAN/ 
+    DOTEN
+    </Line>
+    <Line>
+    <!--LATOM2K-->
+    LATOM/ 
+    NOVAN/ 
+    NOCKA/ 
+    DN368/ 
+    VIDAN
+    </Line>
+    <Line>
+    <!--VILOT2K-->
+    VILOT/ 
+    KHUHO/ 
+    NOCKA
+    </Line>
+    <Line>
+    <!--SADIN2K-->
+    SADIN/ 
+    HENTA/ 
+    NOCKA
+    </Line>
+    <Line>
+    <!--KUMUN2K-->
+    KUMUN/ 
+    NOCKA
+    </Line>
+    <Line>
+    <!--CQ2K-->
+    CQ/ 
+    TAMKY/ 
+    ESSEN/ 
+    CADAS
+    </Line>
+    <Line>
+    <!--PAPRA2L-->
+    MANGA/ 
+    JUMUP/ 
+    TAWAN
+    </Line>
+    <Line>
+    <!--2L-->
+    NOCKA/ 
+    DAPON/ 
+    TAMLA
+    </Line>
+    <Line>
+    <!--CQ2L-->
+    TAMKY/ 
+    TAMLA
+    </Line>
+    <Line>
+    <!--1N ARRIVALS-->
+    BUNTA/ 
+    KANGU/ 
+    LINDA/ 
+    KONGA/ 
+    LOLUC
+    </Line>    
+    <Line>
+    <!--HUE1N ARRIVALS-->
+    HUE/ 
+    HUCAO/ 
+    LINDA
+    </Line>    
+    <Line>
+    <!--CHAEO1N ARRIVALS-->
+    CAHEO/ 
+    HUCAO
+    </Line>
+    <Line>
+    <!--ILS-->
+    TAMLA/ 
+    FIRAI/
+    +16.029047+108.202545 
+    </Line>    
+    <Line>
+    <!--ILS-->
+    TAWAN/
+    FIRAI 
+    </Line>    
+    <Line>
+    <!--ILS-->
+    LOLUC/
+    FIRAI 
+    </Line>    
+  </Map>
+    <Map Type="System" Name="DN_35SID" Priority="1" Center="+16.052778+108.198195">
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KONCO1G-->
+    +16.060372+108.198000/
+    DN450/ 
+    DN456/ 
+    LAIKA/ 
+    PHULU/ 
+    TRABE/ 
+    KONCO
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--VIDEN1G-->
+    TRABE/ 
+    VIDEN
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--BUNTA1G-->
+    DN456/ 
+    HOKIN/ 
+    BINKU/ 
+    BUNTA
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--PAPRA1G-->
+    DN450/ 
+    DN451/ 
+    DN452/ 
+    DN453/ 
+    DN454/ 
+    TANNA/ 
+    PAPRA
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--KUMON1G-->
+    DN453/ 
+    KEMSY/ 
+    KUMUN 
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--SADIN1G-->
+    KEMSY/ 
+    SADIN 
+    </Line>
+    <Line Width = "1.5" Pattern="Broken">
+    <!--XAQUA1G--> 
+    SADIN/ 
+    XAQUA
+    </Line>
+  </Map>
+  <Map Type="System2" Name="35_WPT" Priority="2" Center="+16.052778+108.198195">
+  <Symbol Type="Circle">
+      <Point>HUE</Point>
+      <Point>CQ</Point>
+    </Symbol>
+  <Symbol Type="SolidStar">
+      <Point>PAPRA</Point>
+      <Point>MANGA</Point>
+      <Point>LATOM</Point>
+      <Point>VILOT</Point>
+      <Point>SADIN</Point>
+      <Point>KUMUN</Point>
+      <Point>BUNTA</Point>
+      <Point>TAMKY</Point>
+      <Point>CAHEO</Point>
+      <Point>BUNTA</Point>
+      <Point>KANGU</Point>
+    </Symbol>  
+    <Symbol Type="HollowStar">
+    <Point>HINTA</Point>
+    <Point>DN369</Point>
+    <Point>TAWAN</Point>
+    <Point>DOTEN</Point>
+    <Point>VIDAN</Point>
+    <Point>TRACO</Point>
+    <Point>CADAS</Point>
+    <Point>ESSEN</Point>
+    <Point>NOCKA</Point>
+    <Point>NOVAN</Point>
+    <Point>KHUHO</Point>
+    <Point>HENTA</Point>
+    <Point>DN368</Point>
+    <Point>MONRY</Point>
+    <Point>TAMLA</Point>
+    <Point>LINDA</Point>
+    <Point>HUCAO</Point>
+    <Point>LOLUC</Point>
+    <Point>FIRAI</Point>
+    </Symbol> 
+    </Map>
+  <Map Type="System2" Name="35_NAMES" Priority="2" Center="+16.052778+108.198195">
+    <Label>
+      <Point>HUE</Point>
+      <Point>CQ</Point>
+      <Point>PAPRA</Point>
+      <Point>MANGA</Point>
+      <Point>LATOM</Point>
+      <Point>VILOT</Point>
+      <Point>SADIN</Point>
+      <Point>KUMUN</Point>
+      <Point>BUNTA</Point>
+      <Point>TAMKY</Point>
+      <Point>CAHEO</Point>
+      <Point>BUNTA</Point>
+      <Point>KANGU</Point>
+      <Point>HINTA</Point>
+      <Point>DN369</Point>
+      <Point>TAWAN</Point>
+      <Point>DOTEN</Point>
+      <Point>VIDAN</Point>
+      <Point>TRACO</Point>
+      <Point>CADAS</Point>
+      <Point>ESSEN</Point>
+      <Point>NOCKA</Point>
+      <Point>NOVAN</Point>
+      <Point>KHUHO</Point>
+      <Point>HENTA</Point>
+      <Point>DN368</Point>
+      <Point>MONRY</Point>
+      <Point>TAMLA</Point>
+      <Point>LINDA</Point>
+      <Point>HUCAO</Point>
+      <Point>LOLUC</Point>
+      <Point>FIRAI</Point>
+    </Label>
+  </Map>
+</Maps>

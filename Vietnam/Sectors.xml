@@ -2,30 +2,30 @@
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="HCM ACC" Frequency="132.350" Callsign="VVHM_CTR" Name="HCM">
     <Volumes>TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QL,HC1,HC2,HC3,HC4,HC5,HN4</Volumes>
-    <ResponsibleSectors>TSA,HC1,HC2,HC3,HC4,HC5,HN4</ResponsibleSectors>
+    <ResponsibleSectors>TSA,HC1,HC2,HC3,HC4,HC5,HN4,DAN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Mekong Radar" Frequency="129.425" Callsign="VCL_CTR" Name="VCL">
-    <Volumes>TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QL,HC1,HC2,HC3,HC4,HC5,HN4</Volumes>
+    <Volumes>TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QL,HC1,HC2,HC3,HC4,HC5,HN4,HNI,VDPF,VLVT</Volumes>
     <ResponsibleSectors>HCM,TSA,HC1,HC2,HC3,HC4,HC5,HN4</ResponsibleSectors>
   </Sector>
   <Sector FullName="HCM North" Frequency="123.525" Callsign="VVHM_A_CTR" Name="HCN">
     <Volumes>TSN,TSN_CAP,HC1,HC2,HC5,LKH,CRA</Volumes>
-    <ResponsibleSectors>TSN,HC1,HC2,HC5</ResponsibleSectors>
+    <ResponsibleSectors>TSN,HC1,HC2,HC5,HNI,VDPF,VLVT</ResponsibleSectors>
   </Sector>
   <Sector FullName="HCM South" Frequency="124.975" Callsign="VVHM_B_CTR" Name="HCS">
-    <Volumes>HC3,HC4</Volumes>
+    <Volumes>HC3,HC4,PQU,CSN,RGI,QL,TRN</Volumes>
     <ResponsibleSectors>HC3,HC4</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 1" Frequency="134.050" Callsign="VVHM_1_CTR" Name="HC1">
-    <Volumes>HC1,CRA</Volumes>
+    <Volumes>HC1,CRA,PLK,PCA,TUH</Volumes>
     <ResponsibleSectors>HC1</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 2" Frequency="120.1" Callsign="VVHM_2_CTR" Name="HC2">
-    <Volumes>TSN,TSN_CAP,HC2,LKH</Volumes>
+    <Volumes>TSN,TSN_CAP,HC2,LKH,BMT</Volumes>
     <ResponsibleSectors>TSN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 3" Frequency="120.9" Callsign="VVHM_3_CTR" Name="HC3">
-    <Volumes>HC3</Volumes>
+    <Volumes>HC3,PQU,RGI,TRN,QL</Volumes>
     <ResponsibleSectors>HC3</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 4" Frequency="133.050" Callsign="VVHM_4_CTR" Name="HC4">
@@ -37,12 +37,16 @@
     <ResponsibleSectors>HC5</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sector 4 (VVHN)" Frequency="123.35" Callsign="VVHN_4_CTR" Name="HN4">
-    <Volumes>HN4</Volumes>
-    <ResponsibleSectors>HN4</ResponsibleSectors>
+    <Volumes>HN4,DAN,HUE,CLA</Volumes>
+    <ResponsibleSectors>HN4,DAN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TSN">
     <Volumes>TSN</Volumes>
     <ResponsibleSectors>TSA</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Approach" Frequency="120.45" Callsign="VVDN_APP" Name="DAN">
+    <Volumes>DAN</Volumes>
+    <ResponsibleSectors>DAN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Arrival" Frequency="126.350" Callsign="VVTS_F_APP" Name="TSA">
     <Volumes>TSN</Volumes>

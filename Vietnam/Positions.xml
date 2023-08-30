@@ -406,6 +406,37 @@
         </ControllerInfo>
     </Position>
   </Group>
+  <Group Name="Da Nang">
+    <Position Name="Da Nang Approach" Type="ASD" DefaultCenter="+16.052778+108.198195" DefaultRange="250" VisibilityRange="150" MagneticVariation="-0.639">
+    <Sectors>
+     <Sector Name="DAN" />
+    </Sectors>
+    <ManualVisibility>
+      <Point>+16.052778+108.198195</Point>
+    </ManualVisibility>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="Da Nang/35" />
+      <Map Name="Da Nang/DN_35PROPS" />
+      <Map Name="Da Nang/DN_35SID" />
+      <Map Name="Da Nang/35_WPT" />
+      <Map Name="Da Nang/35_NAMES" />
+    </Maps>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="VVDN" Visible="true" />
+    </Strips>
+      <CFL QuickLevel="9000">
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="VVDN" />
+    </ArrivalLists>
+   <ControllerInfo>
+     <Line>Da Nang Approach</Line>
+     <Line>Charts, Discord Server, Routes and more at linktr.ee/vatsimvcl</Line>
+     <Line>We love feedback! hq.vat-sea.com/atc/feedback</Line>
+   </ControllerInfo>
+ </Position>
+</Group>
   <Position Name="VVTS" Type="ASMGCS" ASMGCSAirport="VVTS" DefaultCenter="+10.816667+106.653333" DefaultRange="2" MagneticVariation="-8" Rotation="330">
     <Maps>
       <Map Name="Tan Son Nhat/VVTS_RWYS" />
