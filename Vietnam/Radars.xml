@@ -156,6 +156,10 @@
     <Lat>+22.320556</Lat>
     <Long>+113.915000</Long>
   </Radar>
+  <Radar Name="Taiwan" Type="ADSB" Elevation="500" Maxrange="250">
+    <Lat>+23.622222</Lat>
+    <Long>+120.850833</Long>
+  </Radar>
   
   <!-- Ground Radar-->
 
