@@ -343,7 +343,7 @@
       <Point>PTH</Point>
     </Label>
     <Label HasLeader="bool" LabelOrientation="S">
-      <Point>TS416</Point>
+      <Point>TS426</Point>
       <Point>VANLI</Point>
     </Label>
     <Label HasLeader="bool" LabelOrientation="S" Alignment="Center">
