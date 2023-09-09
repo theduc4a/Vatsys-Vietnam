@@ -6,7 +6,7 @@
         <Departure Values="VVTS">
           <Rules>
             <Default>
-              <AssignSector Order="TSTE"/>
+              <AssignSector Order="TSN"/>
             </Default>
           </Rules>
         </Departure>

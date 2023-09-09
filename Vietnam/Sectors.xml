@@ -4,10 +4,6 @@
     <Volumes>TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QL,HC1,HC2,HC3,HC4,HC5,HN4</Volumes>
     <ResponsibleSectors>TSA,HC1,HC2,HC3,HC4,HC5,HN4,DAN</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Mekong Radar" Frequency="129.425" Callsign="VCL_CTR" Name="VCL">
-    <Volumes>TSN,TSN_CAP,CRA,LKH,PQU,CSN,TRN,RGI,QL,HC1,HC2,HC3,HC4,HC5,HN4,HNI,VDPF,VLVT</Volumes>
-    <ResponsibleSectors>HCM,TSA,HC1,HC2,HC3,HC4,HC5,HN4</ResponsibleSectors>
-  </Sector>
   <Sector FullName="HCM North" Frequency="123.525" Callsign="VVHM_A_CTR" Name="HCN">
     <Volumes>TSN,TSN_CAP,HC1,HC2,HC5,LKH,CRA</Volumes>
     <ResponsibleSectors>TSN,HC1,HC2,HC5,HNI,VDPF,VLVT</ResponsibleSectors>
@@ -82,11 +78,10 @@
   <Sector FullName="VTBB_CTR" Frequency="119.3" Callsign="VTBB_CTR" Name="VTBB">
     <Volumes>VTBB</Volumes>
   </Sector>
-  <Sector FullName="VDPF_CTR" Frequency="132.1" Callsign="VVDPF_CTR" Name="VDPF">
+  <Sector FullName="VDPF_CTR" Frequency="127.5" Callsign="VDPF_CTR" Name="VDPF">
     <Volumes>VDPF</Volumes>
   </Sector>
-  <Sector FullName="VLVT_CTR" Frequency="128.3" Callsign="VVLVT_CTR" Name="VLVT">
+  <Sector FullName="VLVT_CTR" Frequency="128.3" Callsign="VLVT_CTR" Name="VLVT">
     <Volumes>VLVT</Volumes>
   </Sector>
-
 </Sectors>

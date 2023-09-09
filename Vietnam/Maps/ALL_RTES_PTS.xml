@@ -28,7 +28,7 @@
     <Line Name="Q15_0">CRA.Q15.MESOX</Line>
     <Line Name="R328_0">HUE.R328.SAV</Line>
     <Line Name="R334_0">PQU.R334.NUMDI</Line>
-    <Line Name="R468_0">SAPEN.R468.TSH</Line>
+    <Line Name="R468_0">BKK.R468.TSH</Line>
     <Line Name="R575_0">PAPRA.R575.PUT</Line>
     <Line Name="R588_0">PUT.R588.PLK</Line>
     <Line Name="W1_0">NOB.W1.TSH</Line>
@@ -50,12 +50,19 @@
     <Line Name="Q6_0">MUMGA.Q6.PATNO</Line>
     <Line Name="Q7_0">SADAS.Q7.MUMGA</Line>
     <Line Name="Q10_0">VDO.Q10.VIDAD</Line>
+    <!--Cambodia Routes-->
+    <Line Name="B329_1">PNH.B329.VILAO</Line>
+    <Line Name="R588_1">PUT.R588.PLK</Line>
+    <Line Name="Y19_1">DSK.Y19.PNH</Line>
+    <Line Name="Y16_1">PNH.Y16.SAKDA</Line>
+    
   </Map>
   <Map Type="System" Name="ALL_ROUTES_SYMBOL" Priority="1" Center="+14.651700+108.427600">
     <Symbol Type="SolidSquare">
     </Symbol>
     <Symbol Type="SolidTriangle">
       <Point>IKELA</Point>
+      <Point>ESPOB</Point>
       <Point>BOMPA</Point>
       <Point>BUNTA</Point>
       <Point>DAN</Point>
@@ -214,6 +221,7 @@
     </Symbol>
     <Label Type="System" Name="ALL_ROUTES_NAME" Priority="1" Center="+14.651700+108.427600">
       <Point>CALAR</Point>
+      <Point>ESPOB</Point>
       <Point>LENKO</Point>
       <Point>BINKU</Point>
       <Point>BISON</Point>
