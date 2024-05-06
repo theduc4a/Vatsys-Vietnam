@@ -1,26 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="HCM ACC" Frequency="132.350" Callsign="VVHM_CTR" Name="HCM">
-    <Volumes>VVHM_1,TSN_CAP</Volumes>
-    <ResponsibleSectors>TSA,HCM2</ResponsibleSectors>
+    <Volumes>HC1,HC2,HC3,HC4,HC5,HC6,HC7,HN4</Volumes>
+    <ResponsibleSectors>TSA,TSTE,HC1,HC2,HC3,HC4,HC5,HC6,HC7,HN4,DAA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Sector 2" Frequency="120.1" Callsign="VVHM_2_CTR" Name="HCM2">
-    <Volumes>VVHM_1,TSN_CAP</Volumes>
+  <Sector FullName="HCM North" Frequency="123.525" Callsign="VVHM_A_CTR" Name="HCN">
+    <Volumes>TSN,TSN_CAP,HC1,HC2,HC5,LKH,CRA</Volumes>
+    <ResponsibleSectors>TSN,HC1,HC2,HC5,HNI,VDPF,VLVT</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="HCM South" Frequency="124.975" Callsign="VVHM_B_CTR" Name="HCS">
+    <Volumes>HC3,HC4,PQU,CSN,RGI,QL,TRN</Volumes>
+    <ResponsibleSectors>HC3,HC4</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 1" Frequency="125.375" Callsign="VVHM_1_CTR" Name="HC1">
+    <Volumes>VVTS ACC_1_S1 245 460,VVTS ACC_1_S1_L1 000 245,VVTS ACC_1_S1_L2 100 245,VVTS ACC_1_S1_L3 000 245,VVTS ACC_1_S9 245 265,VVTS ACC_1_S9_L1 000 245,VVTS ACC_1_S9_L2 000 245,VVTS ACC_1_S9_L3 155 245,VVTS ACC_1_S9_L4 090 245,VVTS ACC_1_S9_L5 100 245,CRA,VVTS VVPK_TWR 000 100,VVTS VVCA_TWR 000 070,VVTS VVTH_TWR 000 090</Volumes>
+    <ResponsibleSectors>HC1</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 2" Frequency="120.1" Callsign="VVHM_2_CTR" Name="HC2">
+    <Volumes>TSTE,VVTS ACC_2_S2 195 460,VVTS ACC_2_S2_L1 000 195,VVTS ACC_2_S2_L2 000 195,VVTS ACC_2_S2_L3 090 195,VVTS ACC_2_S7 155 305,VVTS ACC_2_S7_L1 000 155,VVTS ACC_2_S7_L2 110 155,VVTS VVDL_TWR 000 110,VVTS VVBM_TWR 000 090</Volumes>
+    <ResponsibleSectors>HC2,HC6,TSTE</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 3" Frequency="120.9" Callsign="VVHM_3_CTR" Name="HC3">
+    <Volumes>VVTS ACC_3_S10 255 460,VVTS ACC_3_S3 245 460,VVTS ACC_3_S3_L1 000 245,VVTS ACC_3_S3_L2 040 245,VVTS ACC_3_S3_L3 085 245,VDPP VDPF-VVHM_3 000 100,VDPP VDPF-VVHM_3 100 195,VDPP VDPF-VVHM_3 195 245,VDPP VDPF-VVHM_3 245 460,VVTS VVPQ CTR_L1 000 005,VVTS VVPQ CTR_L2 000 005,VVTS VVPQ CTR_U 005 085,VVTS VVRG_TWR 000 040,VVTS VVCT TWR 000 070,VVTS VVCM_TWR 000 050</Volumes>
+    <ResponsibleSectors>HC3</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 4" Frequency="119.350" Callsign="VVHM_4_CTR" Name="HC4">
+    <Volumes>VVTS ACC_4_S11 255 460,VVTS ACC_4_S4 000 460,VVTS VVCS_TWR 000 070</Volumes>
+    <ResponsibleSectors>HC4</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 5" Frequency="120.7" Callsign="VVHM_5_CTR" Name="HC5">
+    <Volumes>VVTS ACC_5_S5 245 460,VVTS ACC_5_S5_L1 000 245,VVTS ACC_5_S5_L2 155 245,VVTS ACC_5_S5_L3 090 245,VVTS ACC_5_S7 305 460,VVTS ACC_5_S8 305 460,VVTS ACC_5_S9 265 460</Volumes>
+    <ResponsibleSectors>HC5</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 6" Frequency="128.775" Callsign="VVHM_6_CTR" Name="HC6">
+    <Volumes>VVTS ACC_6_S6 195 460,VVTS ACC_6_S6_L1 000 195,VVTS ACC_6_S6_L2 110 195,VVTS ACC_6_S8 195 305,VVTS ACC_6_S8_L1 000 195,VVTS ACC_6_S8_L2 110 195,VVTS ACC_6_S8_L3 000 110</Volumes>
+    <ResponsibleSectors>HC6</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 7" Frequency="128.175" Callsign="VVHM_7_CTR" Name="HC7">
+    <Volumes>VVTS ACC_7_S10 195 255,VVTS ACC_7_S10_L1 000 195,VVTS ACC_7_S10_L2 000 195,VVTS ACC_7_S10_L3 050 195,VVTS ACC_7_S10_L4 040 195,VVTS ACC_7_S10_L5 070 195,VVTS ACC_7_S11 195 255,VVTS ACC_7_S11_L1 000 195,VVTS ACC_7_S11_L2 000 195,VVTS ACC_7_S11_L3 070 195</Volumes>
+    <ResponsibleSectors>TSTE,HC7</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Sector 4 (VVHN)" Frequency="123.35" Callsign="VVHN_4_CTR" Name="HN4">
+    <Volumes>VVTS VVHM-VVHN_DEL 245 460,VVTS VVHM-VVHN_DEL_L1 000 245,DAA,VVTS VVPB_TWR 000 070,VVTS VVCA_TWR 000 070</Volumes>
+    <ResponsibleSectors>HN4,DAN</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Tan Son Nhat Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TSTE">
+    <Volumes>VVTS VVTS_L_APP_07_1 025 120,VVTS VVTS_L_APP_07_2 000 120,VVTS VVTS_L_APP_07_3 080 120,VVTS VVTS_L_APP_25_3 025 120,VVTS VVTS_L_APP_25_4 050 120,VVTS VVTS_L_APP_25_5 090 120,VVTS VVTS_L_APP_25_6 110 120,VVTS VVTS_L_APP_25_7 000 120,VVTS VVTS_U_APP 120 165</Volumes>
+    <ResponsibleSectors>TSTE,TSA</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Danang Approach" Frequency="120.45" Callsign="VVDN_APP" Name="DAA">
+    <Volumes>VVTS VVDN_APP 070 195,VVTS VVDN_L2_APP 000 070,VVTS VVDN_L3_APP 030 070,VVTS VVDN_L_APP 000 070</Volumes>
+    <ResponsibleSectors>DAA</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Cam Ranh Approach" Frequency="120.45" Callsign="VVCR_APP" Name="CRA">
+    <Volumes>VVTS VVCR TMA 025 155,VVTS VVCR_L1_TMA 000 025,VVTS VVCR_L2_TMA 000 025</Volumes>
+    <ResponsibleSectors>CRA</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Tan Son Nhat Arrival" Frequency="126.350" Callsign="VVTS_F_APP" Name="TSA">
+    <Volumes>VVTS VVTS_F 07_1 000 080,VVTS VVTS_F 07_1 L 000 025,VVTS VVTS_F 07_2 025 120,VVTS VVTS_F 25_1 025 050,VVTS VVTS_F 25_1 L 000 025,VVTS VVTS_F 25_2 000 090,VVTS VVTS_F 25_3 000 110</Volumes>
     <ResponsibleSectors>TSA</ResponsibleSectors>
-  </Sector>
-  <Sector FullName="Mekong Radar" Frequency="129.425" Callsign="VCL_CTR" Name="VCL">
-    <Volumes>VVHM_1,TSN_CAP</Volumes>
-    <ResponsibleSectors>HCM,TSA,HCM2</ResponsibleSectors>
-  </Sector>
-  <Sector FullName="Terminal" Frequency="125.500" Callsign="VVTS_APP" Name="TSTE">
-    <Volumes>TSN</Volumes>
-    <ResponsibleSectors>TSA</ResponsibleSectors>
-  </Sector>
-  <Sector FullName="Arrival" Frequency="126.350" Callsign="VVTS_F_APP" Name="TSA">
-    <Volumes>TSN</Volumes>
   </Sector>
   <Sector FullName="TSN Tower" Frequency="118.7" Callsign="VVTS_TWR" Name="TST">
-    <Volumes>TST</Volumes>
+    <Volumes>VVTS VVTS_TWR_L 000 005,VVTS VVTS_TWR_L1 000 005</Volumes>
   </Sector>
   <Sector FullName="TSN Ground" Frequency="121.9" Callsign="VVTS_GND" Name="TSG">
     <Volumes>TST</Volumes>
@@ -30,5 +71,30 @@
   </Sector>
   <Sector FullName="TSN Delivery" Frequency="121.8" Callsign="VVTS_DEL" Name="TSD">
     <Volumes>TST</Volumes>
+  </Sector>
+  <!--Other Sectors-->
+  <Sector FullName="HNI ACC" Frequency="121.8" Callsign="VVHN_CTR" Name="HNI">
+    <Volumes>HNI</Volumes>
+  </Sector>
+  <Sector FullName="MNL_CTR" Frequency="119.3" Callsign="MNL_CTR" Name="MNL">
+    <Volumes>RPHI</Volumes>
+  </Sector>
+  <Sector FullName="ZJSA_CTR" Frequency="120.5" Callsign="ZSJA_CTR" Name="ZJSA">
+    <Volumes>ZJSA</Volumes>
+  </Sector>
+  <Sector FullName="ZJYY_CTR" Frequency="133.2" Callsign="ZSJY_CTR" Name="ZJSY">
+    <Volumes>ZJSY</Volumes>
+  </Sector>
+  <Sector FullName="WSJC_CTR" Frequency="123.7" Callsign="WSJC_CTR" Name="WSJC">
+    <Volumes>WSJC</Volumes>
+  </Sector>
+  <Sector FullName="VTBB_CTR" Frequency="119.3" Callsign="VTBB_CTR" Name="VTBB">
+    <Volumes>VTBB</Volumes>
+  </Sector>
+  <Sector FullName="VDPF_CTR" Frequency="127.5" Callsign="VDPF_CTR" Name="VDPF">
+    <Volumes>VDPF</Volumes>
+  </Sector>
+  <Sector FullName="VLVT_CTR" Frequency="128.3" Callsign="VLVT_CTR" Name="VLVT">
+    <Volumes>VLVT</Volumes>
   </Sector>
 </Sectors>
